@@ -1,4 +1,7 @@
-.vs/
-obj/
 bin/
+obj/
+.vs/
+.idea/
+Rider/
 *.user
+*.suo

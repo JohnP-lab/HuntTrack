@@ -3,9 +3,12 @@
   <PropertyGroup>
     <Version>0.0.0.1</Version>
     <Description>A sample plugin.</Description>
-    <PackageProjectUrl>https://github.com/goatcorp/SamplePlugin</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/JohnP-lab/HuntTrack</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <IsPackable>false</IsPackable>
+    <AssemblyName>HuntTrack</AssemblyName>
+    <RootNamespace>HuntTrack</RootNamespace>
+    <PackageId>HuntTrack</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

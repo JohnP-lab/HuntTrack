@@ -1,8 +1,7 @@
-﻿using Dalamud.Configuration;
-using Dalamud.Plugin;
-using System;
+﻿using System;
+using Dalamud.Configuration;
 
-namespace SamplePlugin;
+namespace HuntTrack;
 
 [Serializable]
 public class Configuration : IPluginConfiguration

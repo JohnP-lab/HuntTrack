@@ -1,0 +1,1901 @@
+{
+    "version": "1.0",
+    "cibles": [
+        {
+            "Nom": "Alectryon",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2940,
+            "Rang": "A",
+            "Map": "WesternThanalan"
+        },
+        {
+            "Nom": "Sabotender Bailarina",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2941,
+            "Rang": "A",
+            "Map": "CentralThanalan"
+        },
+        {
+            "Nom": "Maahes",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2942,
+            "Rang": "A",
+            "Map": "EasternThanalan"
+        },
+        {
+            "Nom": "Zanig'oh",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2943,
+            "Rang": "A",
+            "Map": "SouthernThanalan"
+        },
+        {
+            "Nom": "Dalvag's Final Flame",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2944,
+            "Rang": "A",
+            "Map": "NorthernThanalan"
+        },
+        {
+            "Nom": "Forneus",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2936,
+            "Rang": "A",
+            "Map": "CentralShroud"
+        },
+        {
+            "Nom": "Melt",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2937,
+            "Rang": "A",
+            "Map": "EastShroud"
+        },
+        {
+            "Nom": "Ghede Ti Malice",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2938,
+            "Rang": "A",
+            "Map": "SouthShroud"
+        },
+        {
+            "Nom": "Girtab",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2939,
+            "Rang": "A",
+            "Map": "NorthShroud"
+        },
+        {
+            "Nom": "Vogaal Ja",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2945,
+            "Rang": "A",
+            "Map": "MiddleLaNoscea"
+        },
+        {
+            "Nom": "Unktehi",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2946,
+            "Rang": "A",
+            "Map": "LowerLaNoscea"
+        },
+        {
+            "Nom": "Hellsclaw",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2947,
+            "Rang": "A",
+            "Map": "EasternLaNoscea"
+        },
+        {
+            "Nom": "Nahn",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2948,
+            "Rang": "A",
+            "Map": "WesternLaNoscea"
+        },
+        {
+            "Nom": "Marberry",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2949,
+            "Rang": "A",
+            "Map": "UpperLaNoscea"
+        },
+        {
+            "Nom": "Cornu",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2950,
+            "Rang": "A",
+            "Map": "OuterLaNoscea"
+        },
+        {
+            "Nom": "Marraco",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2951,
+            "Rang": "A",
+            "Map": "CoerthasCentralHighlands"
+        },
+        {
+            "Nom": "Kurrea",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2952,
+            "Rang": "A",
+            "Map": "MorDhona"
+        },
+        {
+            "Nom": "Sewer Syrup",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2923,
+            "Rang": "B",
+            "Map": "WesternThanalan"
+        },
+        {
+            "Nom": "Ovjang",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2924,
+            "Rang": "B",
+            "Map": "CentralThanalan"
+        },
+        {
+            "Nom": "Gatling",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2925,
+            "Rang": "B",
+            "Map": "EasternThanalan"
+        },
+        {
+            "Nom": "Albin the Ashen",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2926,
+            "Rang": "B",
+            "Map": "SouthernThanalan"
+        },
+        {
+            "Nom": "Flame Sergeant Dalvag",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2927,
+            "Rang": "B",
+            "Map": "NorthernThanalan"
+        },
+        {
+            "Nom": "White Joker",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2919,
+            "Rang": "B",
+            "Map": "CentralShroud"
+        },
+        {
+            "Nom": "Stinging Sophie",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2920,
+            "Rang": "B",
+            "Map": "EastShroud"
+        },
+        {
+            "Nom": "Monarch Ogrefly",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2921,
+            "Rang": "B",
+            "Map": "SouthShroud"
+        },
+        {
+            "Nom": "Phecda",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2922,
+            "Rang": "B",
+            "Map": "NorthShroud"
+        },
+        {
+            "Nom": "Skogs Fru",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2928,
+            "Rang": "B",
+            "Map": "MiddleLaNoscea"
+        },
+        {
+            "Nom": "Barbastelle",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2929,
+            "Rang": "B",
+            "Map": "LowerLaNoscea"
+        },
+        {
+            "Nom": "Bloody Mary",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2930,
+            "Rang": "B",
+            "Map": "EasternLaNoscea"
+        },
+        {
+            "Nom": "Dark Helmet",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2931,
+            "Rang": "B",
+            "Map": "WesternLaNoscea"
+        },
+        {
+            "Nom": "Myradrosh",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2932,
+            "Rang": "B",
+            "Map": "UpperLaNoscea"
+        },
+        {
+            "Nom": "Vuokho",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2933,
+            "Rang": "B",
+            "Map": "OuterLaNoscea"
+        },
+        {
+            "Nom": "Naul",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2934,
+            "Rang": "B",
+            "Map": "CoerthasCentralHighlands"
+        },
+        {
+            "Nom": "Leech King",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2935,
+            "Rang": "B",
+            "Map": "MorDhona"
+        },
+        {
+            "Nom": "Laideronnette",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2953,
+            "Rang": "S",
+            "Map": "CentralShroud"
+        },
+        {
+            "Nom": "Wulgaru",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2954,
+            "Rang": "S",
+            "Map": "EastShroud"
+        },
+        {
+            "Nom": "Mindflayer",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2955,
+            "Rang": "S",
+            "Map": "SouthShroud"
+        },
+        {
+            "Nom": "Thousand-cast Theda",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2956,
+            "Rang": "S",
+            "Map": "NorthShroud"
+        },
+        {
+            "Nom": "Zona Seeker",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2957,
+            "Rang": "S",
+            "Map": "WesternThanalan"
+        },
+        {
+            "Nom": "Brontes",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2958,
+            "Rang": "S",
+            "Map": "CentralThanalan"
+        },
+        {
+            "Nom": "Lampalagua",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2959,
+            "Rang": "S",
+            "Map": "EasternThanalan"
+        },
+        {
+            "Nom": "Nunyunuwi",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2960,
+            "Rang": "S",
+            "Map": "SouthernThanalan"
+        },
+        {
+            "Nom": "Minhocao",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2961,
+            "Rang": "S",
+            "Map": "NorthernThanalan"
+        },
+        {
+            "Nom": "Croque-mitaine",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2962,
+            "Rang": "S",
+            "Map": "MiddleLaNoscea"
+        },
+        {
+            "Nom": "Croakadile",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2963,
+            "Rang": "S",
+            "Map": "LowerLaNoscea"
+        },
+        {
+            "Nom": "The Garlok",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2964,
+            "Rang": "S",
+            "Map": "EasternLaNoscea"
+        },
+        {
+            "Nom": "Bonnacon",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2965,
+            "Rang": "S",
+            "Map": "WesternLaNoscea"
+        },
+        {
+            "Nom": "Nandi",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2966,
+            "Rang": "S",
+            "Map": "UpperLaNoscea"
+        },
+        {
+            "Nom": "Chernobog",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2967,
+            "Rang": "S",
+            "Map": "OuterLaNoscea"
+        },
+        {
+            "Nom": "Safat",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2968,
+            "Rang": "S",
+            "Map": "CoerthasCentralHighlands"
+        },
+        {
+            "Nom": "Agrippa The Mighty",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 2969,
+            "Rang": "S",
+            "Map": "MorDhona"
+        },
+        {
+            "Nom": "Storsie",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10623,
+            "Rang": "A",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Nom": "Hulder",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10624,
+            "Rang": "A",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Nom": "Yilan",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10625,
+            "Rang": "A",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Sugriva",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10626,
+            "Rang": "A",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Minerva",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10627,
+            "Rang": "A",
+            "Map": "Garlemald"
+        },
+        {
+            "Nom": "Aegeiros",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10628,
+            "Rang": "A",
+            "Map": "Garlemald"
+        },
+        {
+            "Nom": "Lunatender Queen",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10629,
+            "Rang": "A",
+            "Map": "MareLamentorum"
+        },
+        {
+            "Nom": "Mousse Princess",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10630,
+            "Rang": "A",
+            "Map": "MareLamentorum"
+        },
+        {
+            "Nom": "Arch-Eta",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10634,
+            "Rang": "A",
+            "Map": "UltimaThule"
+        },
+        {
+            "Nom": "Fan Ail",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10633,
+            "Rang": "A",
+            "Map": "UltimaThule"
+        },
+        {
+            "Nom": "Petalodus",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10632,
+            "Rang": "A",
+            "Map": "Elpis"
+        },
+        {
+            "Nom": "Gurangatch",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10631,
+            "Rang": "A",
+            "Map": "Elpis"
+        },
+        {
+            "Nom": "Green Archon",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10635,
+            "Rang": "B",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Nom": "Ü-u-ü-u",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10636,
+            "Rang": "B",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Nom": "Vajrakumara",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10637,
+            "Rang": "B",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Iravati",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10638,
+            "Rang": "B",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Warmonger",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10639,
+            "Rang": "B",
+            "Map": "Garlemald"
+        },
+        {
+            "Nom": "Emperor's Rose",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10640,
+            "Rang": "B",
+            "Map": "Garlemald"
+        },
+        {
+            "Nom": "Daphnia Magna",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10641,
+            "Rang": "B",
+            "Map": "MareLamentorum"
+        },
+        {
+            "Nom": "Genesis Rock",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10642,
+            "Rang": "B",
+            "Map": "MareLamentorum"
+        },
+        {
+            "Nom": "Level Cheater",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10645,
+            "Rang": "B",
+            "Map": "UltimaThule"
+        },
+        {
+            "Nom": "Oskh Rhei",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10646,
+            "Rang": "B",
+            "Map": "UltimaThule"
+        },
+        {
+            "Nom": "Shockmaw",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10644,
+            "Rang": "B",
+            "Map": "Elpis"
+        },
+        {
+            "Nom": "Yumcax",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10643,
+            "Rang": "B",
+            "Map": "Elpis"
+        },
+        {
+            "Nom": "Armstrong",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10619,
+            "Rang": "S",
+            "Map": "Garlemald"
+        },
+        {
+            "Nom": "Narrow-rift",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10622,
+            "Rang": "S",
+            "Map": "UltimaThule"
+        },
+        {
+            "Nom": "Ophioneus",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10621,
+            "Rang": "S",
+            "Map": "Elpis"
+        },
+        {
+            "Nom": "Ruminator",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10620,
+            "Rang": "S",
+            "Map": "MareLamentorum"
+        },
+        {
+            "Nom": "Sphatika",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10618,
+            "Rang": "S",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Burfurlur the Canny",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10617,
+            "Rang": "S",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Nom": "Ker",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10615,
+            "Rang": "SS",
+            "Map": "MareLamentorum"
+        },
+        {
+            "Nom": "Ker",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10615,
+            "Rang": "SS",
+            "Map": "Garlemald"
+        },
+        {
+            "Nom": "Ker",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10615,
+            "Rang": "SS",
+            "Map": "UltimaThule"
+        },
+        {
+            "Nom": "Ker",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10615,
+            "Rang": "SS",
+            "Map": "Elpis"
+        },
+        {
+            "Nom": "Ker",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10615,
+            "Rang": "SS",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Ker",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10615,
+            "Rang": "SS",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Nom": "Ker Shroud",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10616,
+            "Rang": "SS",
+            "Map": "Garlemald"
+        },
+        {
+            "Nom": "Ker Shroud",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10616,
+            "Rang": "SS",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Ker Shroud",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10616,
+            "Rang": "SS",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Nom": "Ker Shroud",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10616,
+            "Rang": "SS",
+            "Map": "UltimaThule"
+        },
+        {
+            "Nom": "Ker Shroud",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10616,
+            "Rang": "SS",
+            "Map": "Elpis"
+        },
+        {
+            "Nom": "Ker Shroud",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 10616,
+            "Rang": "SS",
+            "Map": "MareLamentorum"
+        },
+        {
+            "Nom": "Mirka",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4362,
+            "Rang": "A",
+            "Map": "CoerthasWesternHighlands"
+        },
+        {
+            "Nom": "Lyuba",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4363,
+            "Rang": "A",
+            "Map": "CoerthasWesternHighlands"
+        },
+        {
+            "Nom": "Agathos",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4369,
+            "Rang": "A",
+            "Map": "TheChurningMists"
+        },
+        {
+            "Nom": "Bune",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4368,
+            "Rang": "A",
+            "Map": "TheChurningMists"
+        },
+        {
+            "Nom": "Campacti",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4372,
+            "Rang": "A",
+            "Map": "AzysLla"
+        },
+        {
+            "Nom": "Stench Blossom",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4373,
+            "Rang": "A",
+            "Map": "AzysLla"
+        },
+        {
+            "Nom": "Pylraster",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4364,
+            "Rang": "A",
+            "Map": "TheDravanianForelands"
+        },
+        {
+            "Nom": "Lord of the Wyverns",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4365,
+            "Rang": "A",
+            "Map": "TheDravanianForelands"
+        },
+        {
+            "Nom": "Slipkinx Steeljoints",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4366,
+            "Rang": "A",
+            "Map": "TheDravanianHinterlands"
+        },
+        {
+            "Nom": "Stolas",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4367,
+            "Rang": "A",
+            "Map": "TheDravanianHinterlands"
+        },
+        {
+            "Nom": "Enkelados",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4370,
+            "Rang": "A",
+            "Map": "TheSeaofClouds"
+        },
+        {
+            "Nom": "Sisiutl",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4371,
+            "Rang": "A",
+            "Map": "TheSeaofClouds"
+        },
+        {
+            "Nom": "Alteci",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4350,
+            "Rang": "B",
+            "Map": "CoerthasWesternHighlands"
+        },
+        {
+            "Nom": "Kreutzet",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4351,
+            "Rang": "B",
+            "Map": "CoerthasWesternHighlands"
+        },
+        {
+            "Nom": "Lycidas",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4360,
+            "Rang": "B",
+            "Map": "AzysLla"
+        },
+        {
+            "Nom": "Omni",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4361,
+            "Rang": "B",
+            "Map": "AzysLla"
+        },
+        {
+            "Nom": "Gnath Cometdrone",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4352,
+            "Rang": "B",
+            "Map": "TheDravanianForelands"
+        },
+        {
+            "Nom": "Pterygotus",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4354,
+            "Rang": "B",
+            "Map": "TheDravanianForelands"
+        },
+        {
+            "Nom": "False Gigantopithecus",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4355,
+            "Rang": "B",
+            "Map": "TheDravanianHinterlands"
+        },
+        {
+            "Nom": "Stolas",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4367,
+            "Rang": "B",
+            "Map": "TheDravanianHinterlands"
+        },
+        {
+            "Nom": "The Scarecrow",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4357,
+            "Rang": "B",
+            "Map": "TheChurningMists"
+        },
+        {
+            "Nom": "Scitalis",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4356,
+            "Rang": "B",
+            "Map": "TheChurningMists"
+        },
+        {
+            "Nom": "Squonk",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4358,
+            "Rang": "B",
+            "Map": "TheSeaofClouds"
+        },
+        {
+            "Nom": "Sanu Vali of Dancing Wings",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4359,
+            "Rang": "B",
+            "Map": "TheSeaofClouds"
+        },
+        {
+            "Nom": "Kaiser Behemoth",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4374,
+            "Rang": "S",
+            "Map": "CoerthasWesternHighlands"
+        },
+        {
+            "Nom": "Senmurv",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4375,
+            "Rang": "S",
+            "Map": "TheDravanianForelands"
+        },
+        {
+            "Nom": "The Pale Rider",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4376,
+            "Rang": "S",
+            "Map": "TheDravanianHinterlands"
+        },
+        {
+            "Nom": "Gandarewa",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4377,
+            "Rang": "S",
+            "Map": "TheChurningMists"
+        },
+        {
+            "Nom": "Bird of Paradise",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4378,
+            "Rang": "S",
+            "Map": "TheSeaofClouds"
+        },
+        {
+            "Nom": "Leucrotta",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 4380,
+            "Rang": "S",
+            "Map": "AzysLla"
+        },
+        {
+            "Nom": "Orcus",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5990,
+            "Rang": "A",
+            "Map": "TheFringes"
+        },
+        {
+            "Nom": "Erle",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5991,
+            "Rang": "A",
+            "Map": "TheFringes"
+        },
+        {
+            "Nom": "Vochstein",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5992,
+            "Rang": "A",
+            "Map": "ThePeaks"
+        },
+        {
+            "Nom": "Aqrabuamelu",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5993,
+            "Rang": "A",
+            "Map": "ThePeaks"
+        },
+        {
+            "Nom": "Mahisha",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5994,
+            "Rang": "A",
+            "Map": "TheLochs"
+        },
+        {
+            "Nom": "Luminare",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5995,
+            "Rang": "A",
+            "Map": "TheLochs"
+        },
+        {
+            "Nom": "Funa Yurei",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5996,
+            "Rang": "A",
+            "Map": "TheRubySea"
+        },
+        {
+            "Nom": "Oni Yumemi",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5997,
+            "Rang": "A",
+            "Map": "TheRubySea"
+        },
+        {
+            "Nom": "Gajasura",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5998,
+            "Rang": "A",
+            "Map": "Yanxia"
+        },
+        {
+            "Nom": "Angada",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5999,
+            "Rang": "A",
+            "Map": "Yanxia"
+        },
+        {
+            "Nom": "Girimekhala",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6000,
+            "Rang": "A",
+            "Map": "TheAzimSteppe"
+        },
+        {
+            "Nom": "Sum",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6001,
+            "Rang": "A",
+            "Map": "TheAzimSteppe"
+        },
+        {
+            "Nom": "Shadow-dweller Yamini",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6008,
+            "Rang": "B",
+            "Map": "TheFringes"
+        },
+        {
+            "Nom": "Ouzelum",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6009,
+            "Rang": "B",
+            "Map": "TheFringes"
+        },
+        {
+            "Nom": "Gwas-y-neidr",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6010,
+            "Rang": "B",
+            "Map": "ThePeaks"
+        },
+        {
+            "Nom": "Buccaboo",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6011,
+            "Rang": "B",
+            "Map": "ThePeaks"
+        },
+        {
+            "Nom": "Manes",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6012,
+            "Rang": "B",
+            "Map": "TheLochs"
+        },
+        {
+            "Nom": "Kiwa",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6013,
+            "Rang": "B",
+            "Map": "TheLochs"
+        },
+        {
+            "Nom": "Gauki Strongblade",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6002,
+            "Rang": "B",
+            "Map": "TheRubySea"
+        },
+        {
+            "Nom": "Guhuo Niao",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6003,
+            "Rang": "B",
+            "Map": "TheRubySea"
+        },
+        {
+            "Nom": "Deidar",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6004,
+            "Rang": "B",
+            "Map": "Yanxia"
+        },
+        {
+            "Nom": "Gyorai Quickstrike",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6005,
+            "Rang": "B",
+            "Map": "Yanxia"
+        },
+        {
+            "Nom": "Aswang",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6007,
+            "Rang": "B",
+            "Map": "TheAzimSteppe"
+        },
+        {
+            "Nom": "Kurma",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 6006,
+            "Rang": "B",
+            "Map": "TheAzimSteppe"
+        },
+        {
+            "Nom": "Okina",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5984,
+            "Rang": "S",
+            "Map": "TheRubySea"
+        },
+        {
+            "Nom": "Gamma",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5985,
+            "Rang": "S",
+            "Map": "Yanxia"
+        },
+        {
+            "Nom": "Orghana",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5986,
+            "Rang": "S",
+            "Map": "TheAzimSteppe"
+        },
+        {
+            "Nom": "Udumbara",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5987,
+            "Rang": "S",
+            "Map": "TheFringes"
+        },
+        {
+            "Nom": "Bone Crawler",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5988,
+            "Rang": "S",
+            "Map": "ThePeaks"
+        },
+        {
+            "Nom": "Salt and Light",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 5989,
+            "Rang": "S",
+            "Map": "TheLochs"
+        },
+        {
+            "Nom": "The Mudman",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8654,
+            "Rang": "A",
+            "Map": "IlMheg"
+        },
+        {
+            "Nom": "O Poorest Pauldia",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8655,
+            "Rang": "A",
+            "Map": "IlMheg"
+        },
+        {
+            "Nom": "Supay",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8891,
+            "Rang": "A",
+            "Map": "TheRaktikaGreatwood"
+        },
+        {
+            "Nom": "Grassman",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8892,
+            "Rang": "A",
+            "Map": "TheRaktikaGreatwood"
+        },
+        {
+            "Nom": "Rusalka",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8896,
+            "Rang": "A",
+            "Map": "TheTempest"
+        },
+        {
+            "Nom": "Baal",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8897,
+            "Rang": "A",
+            "Map": "TheTempest"
+        },
+        {
+            "Nom": "Maliktender",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8901,
+            "Rang": "A",
+            "Map": "AmhAraeng"
+        },
+        {
+            "Nom": "Sugaar",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8902,
+            "Rang": "A",
+            "Map": "AmhAraeng"
+        },
+        {
+            "Nom": "Nuckelavee",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8906,
+            "Rang": "A",
+            "Map": "Lakeland"
+        },
+        {
+            "Nom": "Nariphon",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8907,
+            "Rang": "A",
+            "Map": "Lakeland"
+        },
+        {
+            "Nom": "Li'l Murderer",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8911,
+            "Rang": "A",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Huracan",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8912,
+            "Rang": "A",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Domovoi",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8656,
+            "Rang": "B",
+            "Map": "IlMheg"
+        },
+        {
+            "Nom": "Vulpangue",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8657,
+            "Rang": "B",
+            "Map": "IlMheg"
+        },
+        {
+            "Nom": "Mindmaker",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8893,
+            "Rang": "B",
+            "Map": "TheRaktikaGreatwood"
+        },
+        {
+            "Nom": "Pachamama",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8894,
+            "Rang": "B",
+            "Map": "TheRaktikaGreatwood"
+        },
+        {
+            "Nom": "Gilshs Aath Swiftclaw",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8898,
+            "Rang": "B",
+            "Map": "TheTempest"
+        },
+        {
+            "Nom": "Deacon",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8899,
+            "Rang": "B",
+            "Map": "TheTempest"
+        },
+        {
+            "Nom": "Worm of the Well",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8903,
+            "Rang": "B",
+            "Map": "AmhAraeng"
+        },
+        {
+            "Nom": "Juggler Hecatomb",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8904,
+            "Rang": "B",
+            "Map": "AmhAraeng"
+        },
+        {
+            "Nom": "La Velue",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8908,
+            "Rang": "B",
+            "Map": "Lakeland"
+        },
+        {
+            "Nom": "Itzpapalotl",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8909,
+            "Rang": "B",
+            "Map": "Lakeland"
+        },
+        {
+            "Nom": "Coquecigrue",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8913,
+            "Rang": "B",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Indomitable",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8914,
+            "Rang": "B",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Aglaope",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8653,
+            "Rang": "S",
+            "Map": "IlMheg"
+        },
+        {
+            "Nom": "Ixtab",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8890,
+            "Rang": "S",
+            "Map": "TheRaktikaGreatwood"
+        },
+        {
+            "Nom": "Gunitt",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8895,
+            "Rang": "S",
+            "Map": "TheTempest"
+        },
+        {
+            "Nom": "Tarchia",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8900,
+            "Rang": "S",
+            "Map": "AmhAraeng"
+        },
+        {
+            "Nom": "Tyger",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8905,
+            "Rang": "S",
+            "Map": "Lakeland"
+        },
+        {
+            "Nom": "Forgiven Pedantry",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8910,
+            "Rang": "S",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Forgiven Rebellion",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8915,
+            "Rang": "SS",
+            "Map": "AmhAraeng"
+        },
+        {
+            "Nom": "Forgiven Rebellion",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8916,
+            "Rang": "SS",
+            "Map": "IlMheg"
+        },
+        {
+            "Nom": "Forgiven Rebellion",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8917,
+            "Rang": "SS",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Forgiven Rebellion",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8918,
+            "Rang": "SS",
+            "Map": "Lakeland"
+        },
+        {
+            "Nom": "Forgiven Rebellion",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8919,
+            "Rang": "SS",
+            "Map": "TheRaktikaGreatwood"
+        },
+        {
+            "Nom": "Forgiven Rebellion",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8920,
+            "Rang": "SS",
+            "Map": "TheTempest"
+        },
+        {
+            "Nom": "Forgiven Gossip",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8916,
+            "Rang": "SS",
+            "Map": "Lakeland"
+        },
+        {
+            "Nom": "Forgiven Gossip",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8921,
+            "Rang": "SS",
+            "Map": "AmhAraeng"
+        },
+        {
+            "Nom": "Forgiven Gossip",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8922,
+            "Rang": "SS",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Forgiven Gossip",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8922,
+            "Rang": "SS",
+            "Map": "TheTempest"
+        },
+        {
+            "Nom": "Forgiven Gossip",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8923,
+            "Rang": "SS",
+            "Map": "TheRaktikaGreatwood"
+        },
+        {
+            "Nom": "Forgiven Gossip",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 8924,
+            "Rang": "SS",
+            "Map": "IlMheg"
+        },
+        {
+            "Nom": "Go'ozoabek'be",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11000,
+            "Rang": "B",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Nom": "The Slammer",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11001,
+            "Rang": "B",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Nom": "Chupacabra",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11002,
+            "Rang": "B",
+            "Map": "Urqopacha"
+        },
+        {
+            "Nom": "Mad Maguey",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11003,
+            "Rang": "B",
+            "Map": "Urqopacha"
+        },
+        {
+            "Nom": "Leafscourge Hadoll Ja",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11004,
+            "Rang": "B",
+            "Map": "Yak T'el"
+        },
+        {
+            "Nom": "Xty'iinbek",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11005,
+            "Rang": "B",
+            "Map": "Yak T'el"
+        },
+        {
+            "Nom": "Nopalitender Fabuloso",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11006,
+            "Rang": "B",
+            "Map": "Shaaloani"
+        },
+        {
+            "Nom": "Uktena",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11007,
+            "Rang": "B",
+            "Map": "Shaaloani"
+        },
+        {
+            "Nom": "Gallowsbeak",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11008,
+            "Rang": "B",
+            "Map": "Heritage Found"
+        },
+        {
+            "Nom": "Gargant",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11009,
+            "Rang": "B",
+            "Map": "Heritage Found"
+        },
+        {
+            "Nom": "13th Child",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11010,
+            "Rang": "B",
+            "Map": "Living Memory"
+        },
+        {
+            "Nom": "Jewel Bearer",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11011,
+            "Rang": "B",
+            "Map": "Living Memory"
+        },
+        {
+            "Nom": "Pkuucha",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11012,
+            "Rang": "A",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Nom": "The Raintriller",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11013,
+            "Rang": "A",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Nom": "Nechuciho",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11014,
+            "Rang": "A",
+            "Map": "Urqopacha"
+        },
+        {
+            "Nom": "Queen Hawk",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11015,
+            "Rang": "A",
+            "Map": "Urqopacha"
+        },
+        {
+            "Nom": "Rrax Yity'a",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11016,
+            "Rang": "A",
+            "Map": "Yak T'el"
+        },
+        {
+            "Nom": "Starcrier",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11017,
+            "Rang": "A",
+            "Map": "Yak T'el"
+        },
+        {
+            "Nom": "Keheniheyamewi",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11018,
+            "Rang": "A",
+            "Map": "Shaaloani"
+        },
+        {
+            "Nom": "Yehehetoaua'pyo",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11019,
+            "Rang": "A",
+            "Map": "Shaaloani"
+        },
+        {
+            "Nom": "Heshuala",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11020,
+            "Rang": "A",
+            "Map": "Heritage Found"
+        },
+        {
+            "Nom": "Urna Variabilis",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11021,
+            "Rang": "A",
+            "Map": "Heritage Found"
+        },
+        {
+            "Nom": "Cat's Eye",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11022,
+            "Rang": "A",
+            "Map": "Living Memory"
+        },
+        {
+            "Nom": "Sally the Sweeper",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11023,
+            "Rang": "A",
+            "Map": "Living Memory"
+        },
+        {
+            "Nom": "Ihnuxokiy",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11024,
+            "Rang": "S",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Nom": "Kirlirger the Abhorrent",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11025,
+            "Rang": "S",
+            "Map": "Urqopacha"
+        },
+        {
+            "Nom": "Neyoozoteel",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11026,
+            "Rang": "S",
+            "Map": "Yak T'el"
+        },
+        {
+            "Nom": "Sansheya",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11027,
+            "Rang": "S",
+            "Map": "Shaaloani"
+        },
+        {
+            "Nom": "Atticus the Primogenitor",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11028,
+            "Rang": "S",
+            "Map": "Heritage Found"
+        },
+        {
+            "Nom": "The Forecaster",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 11029,
+            "Rang": "S",
+            "Map": "Living Memory"
+        },
+        {
+            "Nom": "Behemoth",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 100,
+            "Rang": "Fate",
+            "Map": "Coerthas Central Highlands"
+        },
+        {
+            "Nom": "Odin",
+            "Valid": false,
+            "Extension": "ARR",
+            "ModelID": 101,
+            "Rang": "Fate",
+            "Map": "The Black Shroud"
+        },
+        {
+            "Nom": "Coeurlregina",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 102,
+            "Rang": "Fate",
+            "Map": "The Dravanian Forelands"
+        },
+        {
+            "Nom": "Noctilucale",
+            "Valid": false,
+            "Extension": "HW",
+            "ModelID": 103,
+            "Rang": "Fate",
+            "Map": "Azys Lla"
+        },
+        {
+            "Nom": "Ixion",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 104,
+            "Rang": "Fate",
+            "Map": "The Lochs"
+        },
+        {
+            "Nom": "Tamamo Gozen",
+            "Valid": false,
+            "Extension": "SB",
+            "ModelID": 105,
+            "Rang": "Fate",
+            "Map": "Yanxia"
+        },
+        {
+            "Nom": "Formidable",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 106,
+            "Rang": "Fate",
+            "Map": "Kholusia"
+        },
+        {
+            "Nom": "Archaeotania",
+            "Valid": false,
+            "Extension": "ShB",
+            "ModelID": 107,
+            "Rang": "Fate",
+            "Map": "The Tempest"
+        },
+        {
+            "Nom": "Daivadipa",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 108,
+            "Rang": "Fate",
+            "Map": "Thavnair"
+        },
+        {
+            "Nom": "Chi",
+            "Valid": false,
+            "Extension": "EW",
+            "ModelID": 109,
+            "Rang": "Fate",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Nom": "Ttokrrone",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 110,
+            "Rang": "Fate",
+            "Map": "Shaaloani"
+        },
+        {
+            "Nom": "Mica the Magical Mu",
+            "Valid": false,
+            "Extension": "DT",
+            "ModelID": 111,
+            "Rang": "Fate",
+            "Map": "Living Memory"
+        }
+    ]
+}
