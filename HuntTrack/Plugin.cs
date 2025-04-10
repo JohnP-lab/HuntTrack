@@ -47,7 +47,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService]
     internal static IPluginLog Log { get; private set; } = null!;
 
-    private const string CommandName = "/pmycommand";
+    private const string CommandName = "/hunttrack";
 
 
     public Configuration Configuration { get; init; }
@@ -88,7 +88,7 @@ public sealed class Plugin : IDalamudPlugin
         // Example Output: 00:57:54.959 | INF | [HuntTrack] ===A cool log message from Sample Plugin===
         Log.Information($"===A cool log message from {PluginInterface.Manifest.Name}===");
 
-        Log.Information("Achievement Tracker Plugin initialisé.");
+        Log.Information("HuntTrack Plugin initialisé.");
         LoadJson();
         /*
         string fileName = "HuntClean.json";

@@ -25,7 +25,7 @@ public class MainWindow : Window, IDisposable
         { "ARR", "A Realm Reborn" },
         { "HW", "Heavensward" },
         { "SB", "Stormblood" },
-        { "SHB", "Shadowbringers" },
+        { "ShB", "Shadowbringers" },
         { "EW", "Endwalker" },
         { "DT", "Dawntrail" }
     };
@@ -34,7 +34,7 @@ public class MainWindow : Window, IDisposable
     private static HashSet<string> selectedRangs = new HashSet<string>();
     private static int validFilterIndex = 0; // 0 = Tous, 1 = Valides, 2 = Non valides
 
-    private static string[] availableExtensions = { "ARR", "HW", "SB", "SHB", "EW", "DT" };
+    private static string[] availableExtensions = { "ARR", "HW", "SB", "ShB", "EW", "DT" };
     private static string[] availableRangs = { "SS", "S", "A", "B", "Fate" };
     private static string[] validFilterOptions = { "Tout", "Valides", "Non Valides" };
     
@@ -46,7 +46,7 @@ public class MainWindow : Window, IDisposable
     // So that the user will see "My Amazing Window" as window title,
     // but for ImGui the ID is "My Amazing Window##With a hidden ID"
     public MainWindow(Plugin plugin, string goatImagePath)
-        : base("My Amazing Window##With a hidden ID")
+        : base("Liste des chasses à faire##With a hidden ID")
     {
         SizeConstraints = new WindowSizeConstraints
         {
