@@ -1,0 +1,2425 @@
+{
+    "version": "1.0",
+    "cibles": [
+        {
+            "Name": "13th Child",
+            "Nom": "treizième enfant",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11010,
+            "Rang": "B",
+            "Region": "La Mémoire vivante",
+            "Map": "Living Memory"
+        },
+        {
+            "Name": "Aegeiros",
+            "Nom": "Ægeiros",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10628,
+            "Rang": "A",
+            "Region": "Garlemald",
+            "Map": "Garlemald"
+        },
+        {
+            "Name": "Agathos",
+            "Nom": "Agathos",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4369,
+            "Rang": "A",
+            "Region": "L'Écume des cieux de Dravania",
+            "Map": "The Churning Mists"
+        },
+        {
+            "Name": "Aglaope",
+            "Nom": "Aglaope",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8653,
+            "Rang": "S",
+            "Region": "Il Mheg",
+            "Map": "Il Mheg"
+        },
+        {
+            "Name": "Agrippa The Mighty",
+            "Nom": "Agrippa",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2969,
+            "Rang": "S",
+            "Region": "Mor Dhona",
+            "Map": "Mor Dhona"
+        },
+        {
+            "Name": "Albin the Ashen",
+            "Nom": "Albin le blafard",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2926,
+            "Rang": "B",
+            "Region": "Thanalan méridional",
+            "Map": "Southern Thanalan"
+        },
+        {
+            "Name": "Alectryon",
+            "Nom": "Alectyron",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2940,
+            "Rang": "A",
+            "Region": "Thanalan occidental",
+            "Map": "Western Thanalan"
+        },
+        {
+            "Name": "Alteci",
+            "Nom": "Altek",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4350,
+            "Rang": "B",
+            "Region": "Hautes terres du Coerthas occidental",
+            "Map": "Coerthas Western Highlands"
+        },
+        {
+            "Name": "Angada",
+            "Nom": "Angada",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5999,
+            "Rang": "A",
+            "Region": "Yanxia",
+            "Map": "Yanxia"
+        },
+        {
+            "Name": "Aqrabuamelu",
+            "Nom": "Aqrabuamelu",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5993,
+            "Rang": "A",
+            "Region": "Les Pics",
+            "Map": "The Peaks"
+        },
+        {
+            "Name": "Archaeotania",
+            "Nom": "Archaeotania",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 107,
+            "Rang": "Fate",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Arch-Eta",
+            "Nom": "Arch-Êta",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10634,
+            "Rang": "A",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Armstrong",
+            "Nom": "Armstrong",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10619,
+            "Rang": "S",
+            "Region": "Garlemald",
+            "Map": "Garlemald"
+        },
+        {
+            "Name": "Aswang",
+            "Nom": "Aswang",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6007,
+            "Rang": "B",
+            "Region": "Steppe d'Azim",
+            "Map": "The Azim Steppe"
+        },
+        {
+            "Name": "Pkuucha",
+            "Nom": "Pkuucha",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11012,
+            "Rang": "A",
+            "Region": "Kozama'uka",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Name": "Baal",
+            "Nom": "Baal",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8897,
+            "Rang": "A",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Barbastelle",
+            "Nom": "Barbastelle",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2929,
+            "Rang": "B",
+            "Region": "Basse-Noscea",
+            "Map": "Lower La Noscea"
+        },
+        {
+            "Name": "Behemoth",
+            "Nom": "Behemoth",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 100,
+            "Rang": "Fate",
+            "Region": "Hautes terres du Coerthas central",
+            "Map": "Coerthas Central Highlands"
+        },
+        {
+            "Name": "Bird of Paradise",
+            "Nom": "Oiseau de Paradis",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4378,
+            "Rang": "S",
+            "Region": "L'Écume des cieux d'Abalathia",
+            "Map": "The Sea of Clouds"
+        },
+        {
+            "Name": "Bloody Mary",
+            "Nom": "Mary la sanglante",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2930,
+            "Rang": "B",
+            "Region": "Noscea orientale",
+            "Map": "Eastern La Noscea"
+        },
+        {
+            "Name": "Bone Crawler",
+            "Nom": "Mangeur d'Os",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5988,
+            "Rang": "S",
+            "Region": "Les Pics",
+            "Map": "The Peaks"
+        },
+        {
+            "Name": "Bonnacon",
+            "Nom": "Bonnacon",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2965,
+            "Rang": "S",
+            "Region": "Noscea occidentale",
+            "Map": "Western La Noscea"
+        },
+        {
+            "Name": "Brontes",
+            "Nom": "Brontes",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2958,
+            "Rang": "S",
+            "Region": "Thanalan central",
+            "Map": "Central Thanalan"
+        },
+        {
+            "Name": "Buccaboo",
+            "Nom": "Bucca-boo",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6011,
+            "Rang": "B",
+            "Region": "Les Pics",
+            "Map": "The Peaks"
+        },
+        {
+            "Name": "Bune",
+            "Nom": "Bune",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4368,
+            "Rang": "A",
+            "Region": "L'Écume des cieux de Dravania",
+            "Map": "The Churning Mists"
+        },
+        {
+            "Name": "Burfurlur the Canny",
+            "Nom": "Le Burfurlur",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10617,
+            "Rang": "S",
+            "Region": "Le Labyrinthos",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Name": "Campacti",
+            "Nom": "Campacti",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4372,
+            "Rang": "A",
+            "Region": "Azys Lla",
+            "Map": "Azys Lla"
+        },
+        {
+            "Name": "The Raintriller",
+            "Nom": "Trilleur de Pluie",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11013,
+            "Rang": "A",
+            "Region": "Kozama'uka",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Name": "Chernobog",
+            "Nom": "Czernobog",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2967,
+            "Rang": "S",
+            "Region": "Noscea extérieure",
+            "Map": "Outer La Noscea"
+        },
+        {
+            "Name": "Chi",
+            "Nom": "Chi",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 109,
+            "Rang": "Fate",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Chupacabra",
+            "Nom": "Chupacabra",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11002,
+            "Rang": "B",
+            "Region": "Urqopacha",
+            "Map": "Urqopacha"
+        },
+        {
+            "Name": "Coeurlregina",
+            "Nom": "Coeurlregina",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 102,
+            "Rang": "Fate",
+            "Region": "Avant-pays dravanien",
+            "Map": "The Dravanian Forelands"
+        },
+        {
+            "Name": "Coquecigrue",
+            "Nom": "Coquecigrue",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8913,
+            "Rang": "B",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Cornu",
+            "Nom": "Cornu",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2950,
+            "Rang": "A",
+            "Region": "Noscea extérieure",
+            "Map": "Outer La Noscea"
+        },
+        {
+            "Name": "Croakadile",
+            "Nom": "Croabéros",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2963,
+            "Rang": "S",
+            "Region": "Basse-Noscea",
+            "Map": "Lower La Noscea"
+        },
+        {
+            "Name": "Croque-mitaine",
+            "Nom": "Croque-mitaine",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2962,
+            "Rang": "S",
+            "Region": "Noscea centrale",
+            "Map": "Middle La Noscea"
+        },
+        {
+            "Name": "Daivadipa",
+            "Nom": "Daivadipa",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 108,
+            "Rang": "Fate",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Dalvag's Final Flame",
+            "Nom": "Dernière Flamme de Dalvag",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2944,
+            "Rang": "A",
+            "Region": "Thanalan septentrional",
+            "Map": "Northern Thanalan"
+        },
+        {
+            "Name": "Daphnia Magna",
+            "Nom": "magna daphnie",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10641,
+            "Rang": "B",
+            "Region": "Mare Lamentorum",
+            "Map": "Mare Lamentorum"
+        },
+        {
+            "Name": "Dark Helmet",
+            "Nom": "Casque noir",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2931,
+            "Rang": "B",
+            "Region": "Noscea occidentale",
+            "Map": "Western La Noscea"
+        },
+        {
+            "Name": "Deacon",
+            "Nom": "Diacre",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8899,
+            "Rang": "B",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Deidar",
+            "Nom": "Deidar",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6004,
+            "Rang": "B",
+            "Region": "Yanxia",
+            "Map": "Yanxia"
+        },
+        {
+            "Name": "Domovoi",
+            "Nom": "Domovoï",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8656,
+            "Rang": "B",
+            "Region": "Il Mheg",
+            "Map": "Il Mheg"
+        },
+        {
+            "Name": "Emperor's Rose",
+            "Nom": "rosier de l'empereur",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10640,
+            "Rang": "B",
+            "Region": "Garlemald",
+            "Map": "Garlemald"
+        },
+        {
+            "Name": "Enkelados",
+            "Nom": "Enkélados",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4370,
+            "Rang": "A",
+            "Region": "L'Écume des cieux d'Abalathia",
+            "Map": "The Sea of Clouds"
+        },
+        {
+            "Name": "Erle",
+            "Nom": "Erle",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5991,
+            "Rang": "A",
+            "Region": "Les Marges",
+            "Map": "The Fringes"
+        },
+        {
+            "Name": "False Gigantopithecus",
+            "Nom": "gigantopithèque",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4355,
+            "Rang": "B",
+            "Region": "Arrière-pays dravanien",
+            "Map": "The Dravanian Hinterlands"
+        },
+        {
+            "Name": "Fan Ail",
+            "Nom": "Fan Ail",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10633,
+            "Rang": "A",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Flame Sergeant Dalvag",
+            "Nom": "sergent-major Dalvag",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2927,
+            "Rang": "B",
+            "Region": "Thanalan septentrional",
+            "Map": "Northern Thanalan"
+        },
+        {
+            "Name": "Forgiven Gossip",
+            "Nom": "Médisance pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8930,
+            "Rang": "SS",
+            "Region": "Grand-Lac",
+            "Map": "Lakeland"
+        },
+        {
+            "Name": "Forgiven Gossip",
+            "Nom": "Médisance pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8921,
+            "Rang": "SS",
+            "Region": "Amh Araeng",
+            "Map": "Amh Araeng"
+        },
+        {
+            "Name": "Forgiven Gossip",
+            "Nom": "Médisance pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8931,
+            "Rang": "SS",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Forgiven Gossip",
+            "Nom": "Médisance pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8922,
+            "Rang": "SS",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Forgiven Gossip",
+            "Nom": "Médisance pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8923,
+            "Rang": "SS",
+            "Region": "Rak'tika",
+            "Map": "The Rak'tika Greatwood"
+        },
+        {
+            "Name": "Forgiven Gossip",
+            "Nom": "Médisance pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8924,
+            "Rang": "SS",
+            "Region": "Il Mheg",
+            "Map": "Il Mheg"
+        },
+        {
+            "Name": "Forgiven Pedantry",
+            "Nom": "Pédanterie Pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8910,
+            "Rang": "S",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Forgiven Rebellion",
+            "Nom": "Rébellion Pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8915,
+            "Rang": "SS",
+            "Region": "Amh Araeng",
+            "Map": "Amh Araeng"
+        },
+        {
+            "Name": "Forgiven Rebellion",
+            "Nom": "Rébellion Pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8916,
+            "Rang": "SS",
+            "Region": "Il Mheg",
+            "Map": "Il Mheg"
+        },
+        {
+            "Name": "Forgiven Rebellion",
+            "Nom": "Rébellion Pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8917,
+            "Rang": "SS",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Forgiven Rebellion",
+            "Nom": "Rébellion Pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8918,
+            "Rang": "SS",
+            "Region": "Grand-Lac",
+            "Map": "Lakeland"
+        },
+        {
+            "Name": "Forgiven Rebellion",
+            "Nom": "Rébellion Pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8919,
+            "Rang": "SS",
+            "Region": "Rak'tika",
+            "Map": "The Rak'tika Greatwood"
+        },
+        {
+            "Name": "Forgiven Rebellion",
+            "Nom": "Rébellion Pardonnée",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8920,
+            "Rang": "SS",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Formidable",
+            "Nom": "Formidable",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 106,
+            "Rang": "Fate",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Forneus",
+            "Nom": "Forneus",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2936,
+            "Rang": "A",
+            "Region": "Forêt centrale",
+            "Map": "Central Shroud"
+        },
+        {
+            "Name": "Funa Yurei",
+            "Nom": "Funa Yurei",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5996,
+            "Rang": "A",
+            "Region": "Mer de Rubis",
+            "Map": "The Ruby Sea"
+        },
+        {
+            "Name": "Gajasura",
+            "Nom": "Gajasura",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5998,
+            "Rang": "A",
+            "Region": "Yanxia",
+            "Map": "Yanxia"
+        },
+        {
+            "Name": "Gallowsbeak",
+            "Nom": "Gibec",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11008,
+            "Rang": "B",
+            "Region": "L'Hoirie recouvrée",
+            "Map": "Heritage Found"
+        },
+        {
+            "Name": "Gamma",
+            "Nom": "Gamma",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5985,
+            "Rang": "S",
+            "Region": "Yanxia",
+            "Map": "Yanxia"
+        },
+        {
+            "Name": "Gandarewa",
+            "Nom": "Gandharva",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4377,
+            "Rang": "S",
+            "Region": "L'Écume des cieux de Dravania",
+            "Map": "The Churning Mists"
+        },
+        {
+            "Name": "Gargant",
+            "Nom": "gargant",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11009,
+            "Rang": "B",
+            "Region": "L'Hoirie recouvrée",
+            "Map": "Heritage Found"
+        },
+        {
+            "Name": "Gatling",
+            "Nom": "Acanthor",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2925,
+            "Rang": "B",
+            "Region": "Thanalan oriental",
+            "Map": "Eastern Thanalan"
+        },
+        {
+            "Name": "Gauki Strongblade",
+            "Nom": "Gauki la Lame forte",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6002,
+            "Rang": "B",
+            "Region": "Mer de Rubis",
+            "Map": "The Ruby Sea"
+        },
+        {
+            "Name": "Genesis Rock",
+            "Nom": "pierre de la genèse",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10642,
+            "Rang": "B",
+            "Region": "Mare Lamentorum",
+            "Map": "Mare Lamentorum"
+        },
+        {
+            "Name": "Ghede Ti Malice",
+            "Nom": "Guédé Ti-Malice",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2938,
+            "Rang": "A",
+            "Region": "Forêt du sud",
+            "Map": "South Shroud"
+        },
+        {
+            "Name": "Gilshs Aath Swiftclaw",
+            "Nom": "Gilshs Aath l'étrangleur",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8898,
+            "Rang": "B",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Girimekhala",
+            "Nom": "Girimekhala",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6000,
+            "Rang": "A",
+            "Region": "Steppe d'Azim",
+            "Map": "The Azim Steppe"
+        },
+        {
+            "Name": "Girtab",
+            "Nom": "Girtab",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2939,
+            "Rang": "A",
+            "Region": "Forêt du nord",
+            "Map": "North Shroud"
+        },
+        {
+            "Name": "Gnath Cometdrone",
+            "Nom": "Gnathe myrmicomète",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4352,
+            "Rang": "B",
+            "Region": "Avant-pays dravanien",
+            "Map": "The Dravanian Forelands"
+        },
+        {
+            "Name": "Go'ozoabek'be",
+            "Nom": "Go'ozoabek'be",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11000,
+            "Rang": "B",
+            "Region": "Kozama'uka",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Name": "Grassman",
+            "Nom": "Sasquatch Arboricole",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8892,
+            "Rang": "A",
+            "Region": "Rak'tika",
+            "Map": "The Rak'tika Greatwood"
+        },
+        {
+            "Name": "Green Archon",
+            "Nom": "Preux feuillu",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10635,
+            "Rang": "B",
+            "Region": "Le Labyrinthos",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Name": "Guhuo Niao",
+            "Nom": "Guhuo Niao",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6003,
+            "Rang": "B",
+            "Region": "Mer de Rubis",
+            "Map": "The Ruby Sea"
+        },
+        {
+            "Name": "Gunitt",
+            "Nom": "Gunitt",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8895,
+            "Rang": "S",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Gurangatch",
+            "Nom": "Gurangatch",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10631,
+            "Rang": "A",
+            "Region": "Elpis",
+            "Map": "Elpis"
+        },
+        {
+            "Name": "Gwas-y-neidr",
+            "Nom": "Gwas-y-neidr",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6010,
+            "Rang": "B",
+            "Region": "Les Pics",
+            "Map": "The Peaks"
+        },
+        {
+            "Name": "Gyorai Quickstrike",
+            "Nom": "Gyorai le Vif",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6005,
+            "Rang": "B",
+            "Region": "Yanxia",
+            "Map": "Yanxia"
+        },
+        {
+            "Name": "Hellsclaw",
+            "Nom": "Griffe des Enfers Magitek",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2947,
+            "Rang": "A",
+            "Region": "Noscea orientale",
+            "Map": "Eastern La Noscea"
+        },
+        {
+            "Name": "Nechuciho",
+            "Nom": "Nechuciho",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11014,
+            "Rang": "A",
+            "Region": "Urqopacha",
+            "Map": "Urqopacha"
+        },
+        {
+            "Name": "Hulder",
+            "Nom": "Hulder",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10624,
+            "Rang": "A",
+            "Region": "Le Labyrinthos",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Name": "Huracan",
+            "Nom": "Huracan",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8912,
+            "Rang": "A",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Queen Hawk",
+            "Nom": "Reine des Guêpes",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11015,
+            "Rang": "A",
+            "Region": "Urqopacha",
+            "Map": "Urqopacha"
+        },
+        {
+            "Name": "Indomitable",
+            "Nom": "Indomptable",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8914,
+            "Rang": "B",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Iravati",
+            "Nom": "Iravati",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10638,
+            "Rang": "B",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Itzpapalotl",
+            "Nom": "Itzpapalotl",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8909,
+            "Rang": "B",
+            "Region": "Grand-Lac",
+            "Map": "Lakeland"
+        },
+        {
+            "Name": "Ixion",
+            "Nom": "Ixion",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 104,
+            "Rang": "Fate",
+            "Region": "Les Lacs",
+            "Map": "The Lochs"
+        },
+        {
+            "Name": "Ixtab",
+            "Nom": "Ixtab",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8890,
+            "Rang": "S",
+            "Region": "Rak'tika",
+            "Map": "The Rak'tika Greatwood"
+        },
+        {
+            "Name": "Jewel Bearer",
+            "Nom": "porte-joyaux",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11011,
+            "Rang": "B",
+            "Region": "La Mémoire vivante",
+            "Map": "Living Memory"
+        },
+        {
+            "Name": "Juggler Hecatomb",
+            "Nom": "Jongleur hécatombe",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8904,
+            "Rang": "B",
+            "Region": "Amh Araeng",
+            "Map": "Amh Araeng"
+        },
+        {
+            "Name": "Kaiser Behemoth",
+            "Nom": "Béhémoth Empereur",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4374,
+            "Rang": "S",
+            "Region": "Hautes terres du Coerthas occidental",
+            "Map": "Coerthas Western Highlands"
+        },
+        {
+            "Name": "Rrax Yity'a",
+            "Nom": "Rrax Yity'a",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11016,
+            "Rang": "A",
+            "Region": "Yak T'el",
+            "Map": "Yak T'el"
+        },
+        {
+            "Name": "Ker",
+            "Nom": "Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10615,
+            "Rang": "SS",
+            "Region": "Mare Lamentorum",
+            "Map": "Mare Lamentorum"
+        },
+        {
+            "Name": "Ker",
+            "Nom": "Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10616,
+            "Rang": "SS",
+            "Region": "Garlemald",
+            "Map": "Garlemald"
+        },
+        {
+            "Name": "Ker",
+            "Nom": "Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10648,
+            "Rang": "SS",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Ker",
+            "Nom": "Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10649,
+            "Rang": "SS",
+            "Region": "Elpis",
+            "Map": "Elpis"
+        },
+        {
+            "Name": "Ker",
+            "Nom": "Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10650,
+            "Rang": "SS",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Ker",
+            "Nom": "Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10651,
+            "Rang": "SS",
+            "Region": "Le Labyrinthos",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Name": "Ker Shroud",
+            "Nom": "Serviteur de Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10652,
+            "Rang": "SS",
+            "Region": "Garlemald",
+            "Map": "Garlemald"
+        },
+        {
+            "Name": "Ker Shroud",
+            "Nom": "Serviteur de Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10653,
+            "Rang": "SS",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Ker Shroud",
+            "Nom": "Serviteur de Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10654,
+            "Rang": "SS",
+            "Region": "Le Labyrinthos",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Name": "Ker Shroud",
+            "Nom": "Serviteur de Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10655,
+            "Rang": "SS",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Ker Shroud",
+            "Nom": "Serviteur de Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10656,
+            "Rang": "SS",
+            "Region": "Elpis",
+            "Map": "Elpis"
+        },
+        {
+            "Name": "Ker Shroud",
+            "Nom": "Serviteur de Kèr",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10657,
+            "Rang": "SS",
+            "Region": "Mare Lamentorum",
+            "Map": "Mare Lamentorum"
+        },
+        {
+            "Name": "Starcrier",
+            "Nom": "Furopluminescent",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11017,
+            "Rang": "A",
+            "Region": "Yak T'el",
+            "Map": "Yak T'el"
+        },
+        {
+            "Name": "Kiwa",
+            "Nom": "Kiwa",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6013,
+            "Rang": "B",
+            "Region": "Les Lacs",
+            "Map": "The Lochs"
+        },
+        {
+            "Name": "Kreutzet",
+            "Nom": "Kreutzet",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4351,
+            "Rang": "B",
+            "Region": "Hautes terres du Coerthas occidental",
+            "Map": "Coerthas Western Highlands"
+        },
+        {
+            "Name": "Kurma",
+            "Nom": "Kurma",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6006,
+            "Rang": "B",
+            "Region": "Steppe d'Azim",
+            "Map": "The Azim Steppe"
+        },
+        {
+            "Name": "Kurrea",
+            "Nom": "Kurrea",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2952,
+            "Rang": "A",
+            "Region": "Mor Dhona",
+            "Map": "Mor Dhona"
+        },
+        {
+            "Name": "La Velue",
+            "Nom": "Velue",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8908,
+            "Rang": "B",
+            "Region": "Grand-Lac",
+            "Map": "Lakeland"
+        },
+        {
+            "Name": "Laideronnette",
+            "Nom": "Laideronnette",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2953,
+            "Rang": "S",
+            "Region": "Forêt centrale",
+            "Map": "Central Shroud"
+        },
+        {
+            "Name": "Lampalagua",
+            "Nom": "Balaur",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2959,
+            "Rang": "S",
+            "Region": "Thanalan oriental",
+            "Map": "Eastern Thanalan"
+        },
+        {
+            "Name": "Leafscourge Hadoll Ja",
+            "Nom": "Hadoll Ja le foufeuillu",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11004,
+            "Rang": "B",
+            "Region": "Yak T'el",
+            "Map": "Yak T'el"
+        },
+        {
+            "Name": "Leech King",
+            "Nom": "roi des sangsues",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2935,
+            "Rang": "B",
+            "Region": "Mor Dhona",
+            "Map": "Mor Dhona"
+        },
+        {
+            "Name": "Leucrotta",
+            "Nom": "Leucrotta",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4380,
+            "Rang": "S",
+            "Region": "Azys Lla",
+            "Map": "Azys Lla"
+        },
+        {
+            "Name": "Level Cheater",
+            "Nom": "tricheniveau",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10645,
+            "Rang": "B",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Li'l Murderer",
+            "Nom": "Traître",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8911,
+            "Rang": "A",
+            "Region": "Kholusia",
+            "Map": "Kholusia"
+        },
+        {
+            "Name": "Lord of the Wyverns",
+            "Nom": "Seigneur des Wyvernes",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4365,
+            "Rang": "A",
+            "Region": "Avant-pays dravanien",
+            "Map": "The Dravanian Forelands"
+        },
+        {
+            "Name": "Luminare",
+            "Nom": "Luminare",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5995,
+            "Rang": "A",
+            "Region": "Les Lacs",
+            "Map": "The Lochs"
+        },
+        {
+            "Name": "Lunatender Queen",
+            "Nom": "Pampa Sélénienne Reine",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10629,
+            "Rang": "A",
+            "Region": "Mare Lamentorum",
+            "Map": "Mare Lamentorum"
+        },
+        {
+            "Name": "Lycidas",
+            "Nom": "Lycidas",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4360,
+            "Rang": "B",
+            "Region": "Azys Lla",
+            "Map": "Azys Lla"
+        },
+        {
+            "Name": "Lyuba",
+            "Nom": "Lyuba",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4363,
+            "Rang": "A",
+            "Region": "Hautes terres du Coerthas occidental",
+            "Map": "Coerthas Western Highlands"
+        },
+        {
+            "Name": "Maahes",
+            "Nom": "Maahes",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2942,
+            "Rang": "A",
+            "Region": "Thanalan oriental",
+            "Map": "Eastern Thanalan"
+        },
+        {
+            "Name": "Mad Maguey",
+            "Nom": "pita dément",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11003,
+            "Rang": "B",
+            "Region": "Urqopacha",
+            "Map": "Urqopacha"
+        },
+        {
+            "Name": "Mahisha",
+            "Nom": "Mahisha",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5994,
+            "Rang": "A",
+            "Region": "Les Lacs",
+            "Map": "The Lochs"
+        },
+        {
+            "Name": "Maliktender",
+            "Nom": "Malikpampa",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8901,
+            "Rang": "A",
+            "Region": "Amh Araeng",
+            "Map": "Amh Araeng"
+        },
+        {
+            "Name": "Manes",
+            "Nom": "Manes",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6012,
+            "Rang": "B",
+            "Region": "Les Lacs",
+            "Map": "The Lochs"
+        },
+        {
+            "Name": "Marberry",
+            "Nom": "Marberry",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2949,
+            "Rang": "A",
+            "Region": "Haute-Noscea",
+            "Map": "Upper La Noscea"
+        },
+        {
+            "Name": "Marraco",
+            "Nom": "Marraco",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2951,
+            "Rang": "A",
+            "Region": "Hautes terres du Coerthas central",
+            "Map": "Coerthas Central Highlands"
+        },
+        {
+            "Name": "Melt",
+            "Nom": "Fondu",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2937,
+            "Rang": "A",
+            "Region": "Forêt de l'est",
+            "Map": "East Shroud"
+        },
+        {
+            "Name": "Mica the Magical Mu",
+            "Nom": "Mica the Magical Mu",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 111,
+            "Rang": "Fate",
+            "Region": "La Mémoire vivante",
+            "Map": "Living Memory"
+        },
+        {
+            "Name": "Mindflayer",
+            "Nom": "Flagelleur Mental",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2955,
+            "Rang": "S",
+            "Region": "Forêt du sud",
+            "Map": "South Shroud"
+        },
+        {
+            "Name": "Mindmaker",
+            "Nom": "Maître-penseur",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8893,
+            "Rang": "B",
+            "Region": "Rak'tika",
+            "Map": "The Rak'tika Greatwood"
+        },
+        {
+            "Name": "Minerva",
+            "Nom": "Minerva",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10627,
+            "Rang": "A",
+            "Region": "Garlemald",
+            "Map": "Garlemald"
+        },
+        {
+            "Name": "Minhocao",
+            "Nom": "Minhocao",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2961,
+            "Rang": "S",
+            "Region": "Thanalan septentrional",
+            "Map": "Northern Thanalan"
+        },
+        {
+            "Name": "Mirka",
+            "Nom": "Mirka",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4362,
+            "Rang": "A",
+            "Region": "Hautes terres du Coerthas occidental",
+            "Map": "Coerthas Western Highlands"
+        },
+        {
+            "Name": "Monarch Ogrefly",
+            "Nom": "agrion ogre monarque",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2921,
+            "Rang": "B",
+            "Region": "Forêt du sud",
+            "Map": "South Shroud"
+        },
+        {
+            "Name": "Mousse Princess",
+            "Nom": "Princesse Mousse",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10630,
+            "Rang": "A",
+            "Region": "Mare Lamentorum",
+            "Map": "Mare Lamentorum"
+        },
+        {
+            "Name": "Myradrosh",
+            "Nom": "Myradrosh",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2932,
+            "Rang": "B",
+            "Region": "Haute-Noscea",
+            "Map": "Upper La Noscea"
+        },
+        {
+            "Name": "Nahn",
+            "Nom": "Nahn",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2948,
+            "Rang": "A",
+            "Region": "Noscea occidentale",
+            "Map": "Western La Noscea"
+        },
+        {
+            "Name": "Nandi",
+            "Nom": "Nandi",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2966,
+            "Rang": "S",
+            "Region": "Haute-Noscea",
+            "Map": "Upper La Noscea"
+        },
+        {
+            "Name": "Nariphon",
+            "Nom": "Nariphon",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8907,
+            "Rang": "A",
+            "Region": "Grand-Lac",
+            "Map": "Lakeland"
+        },
+        {
+            "Name": "Narrow-rift",
+            "Nom": "Rift-Étroit",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10622,
+            "Rang": "S",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Naul",
+            "Nom": "Naul",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2934,
+            "Rang": "B",
+            "Region": "Hautes terres du Coerthas central",
+            "Map": "Coerthas Central Highlands"
+        },
+        {
+            "Name": "Keheniheyamewi",
+            "Nom": "Keheniheyamewi",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11018,
+            "Rang": "A",
+            "Region": "Shaaloani",
+            "Map": "Shaaloani"
+        },
+        {
+            "Name": "Yehehetoaua'pyo",
+            "Nom": "Yehehetoaua'pyo",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11019,
+            "Rang": "A",
+            "Region": "Shaaloani",
+            "Map": "Shaaloani"
+        },
+        {
+            "Name": "Noctilucale",
+            "Nom": "Noctilucale",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 103,
+            "Rang": "Fate",
+            "Region": "Azys Lla",
+            "Map": "Azys Lla"
+        },
+        {
+            "Name": "Nopalitender Fabuloso",
+            "Nom": "pampa de barbarie fabuleux",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11006,
+            "Rang": "B",
+            "Region": "Shaaloani",
+            "Map": "Shaaloani"
+        },
+        {
+            "Name": "Nuckelavee",
+            "Nom": "Nuckelavee",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8906,
+            "Rang": "A",
+            "Region": "Grand-Lac",
+            "Map": "Lakeland"
+        },
+        {
+            "Name": "Nunyunuwi",
+            "Nom": "Nunyunuwi",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2960,
+            "Rang": "S",
+            "Region": "Thanalan méridional",
+            "Map": "Southern Thanalan"
+        },
+        {
+            "Name": "O Poorest Pauldia",
+            "Nom": "Pauldia",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8655,
+            "Rang": "A",
+            "Region": "Il Mheg",
+            "Map": "Il Mheg"
+        },
+        {
+            "Name": "Odin",
+            "Nom": "Odin",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 101,
+            "Rang": "Fate",
+            "Region": "Forêt centrale",
+            "Map": "Central Shroud"
+        },
+        {
+            "Name": "Okina",
+            "Nom": "Okina",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5984,
+            "Rang": "S",
+            "Region": "Mer de Rubis",
+            "Map": "The Ruby Sea"
+        },
+        {
+            "Name": "Omni",
+            "Nom": "Omni",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4361,
+            "Rang": "B",
+            "Region": "Azys Lla",
+            "Map": "Azys Lla"
+        },
+        {
+            "Name": "Oni Yumemi",
+            "Nom": "Oni Yumemi",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5997,
+            "Rang": "A",
+            "Region": "Mer de Rubis",
+            "Map": "The Ruby Sea"
+        },
+        {
+            "Name": "Ophioneus",
+            "Nom": "Ophion",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10621,
+            "Rang": "S",
+            "Region": "Elpis",
+            "Map": "Elpis"
+        },
+        {
+            "Name": "Orcus",
+            "Nom": "Orcus",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5990,
+            "Rang": "A",
+            "Region": "Les Marges",
+            "Map": "The Fringes"
+        },
+        {
+            "Name": "Orghana",
+            "Nom": "Orghana",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5986,
+            "Rang": "S",
+            "Region": "Steppe d'Azim",
+            "Map": "The Azim Steppe"
+        },
+        {
+            "Name": "Oskh Rhei",
+            "Nom": "Oskh Rhei",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10646,
+            "Rang": "B",
+            "Region": "Ultima Thulé",
+            "Map": "Ultima Thule"
+        },
+        {
+            "Name": "Ouzelum",
+            "Nom": "Ouzelum",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6009,
+            "Rang": "B",
+            "Region": "Les Marges",
+            "Map": "The Fringes"
+        },
+        {
+            "Name": "Ovjang",
+            "Nom": "Ovjang",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2924,
+            "Rang": "B",
+            "Region": "Thanalan central",
+            "Map": "Central Thanalan"
+        },
+        {
+            "Name": "Pachamama",
+            "Nom": "Pachamama",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8894,
+            "Rang": "B",
+            "Region": "Rak'tika",
+            "Map": "The Rak'tika Greatwood"
+        },
+        {
+            "Name": "Petalodus",
+            "Nom": "Petalodus",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10632,
+            "Rang": "A",
+            "Region": "Elpis",
+            "Map": "Elpis"
+        },
+        {
+            "Name": "Phecda",
+            "Nom": "Phecda",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2922,
+            "Rang": "B",
+            "Region": "Forêt du nord",
+            "Map": "North Shroud"
+        },
+        {
+            "Name": "Heshuala",
+            "Nom": "Heshuala",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11020,
+            "Rang": "A",
+            "Region": "L'Hoirie recouvrée",
+            "Map": "Heritage Found"
+        },
+        {
+            "Name": "Pterygotus",
+            "Nom": "Pterygotus",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4354,
+            "Rang": "B",
+            "Region": "Avant-pays dravanien",
+            "Map": "The Dravanian Forelands"
+        },
+        {
+            "Name": "Pylraster",
+            "Nom": "Pirlasta",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4364,
+            "Rang": "A",
+            "Region": "Avant-pays dravanien",
+            "Map": "The Dravanian Forelands"
+        },
+        {
+            "Name": "Urna Variabilis",
+            "Nom": "Pod Variant",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11021,
+            "Rang": "A",
+            "Region": "L'Hoirie recouvrée",
+            "Map": "Heritage Found"
+        },
+        {
+            "Name": "Cat's Eye",
+            "Nom": "Œil-de-chat",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11022,
+            "Rang": "A",
+            "Region": "La Mémoire vivante",
+            "Map": "Living Memory"
+        },
+        {
+            "Name": "Ruminator",
+            "Nom": "Ruminateur",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10620,
+            "Rang": "S",
+            "Region": "Mare Lamentorum",
+            "Map": "Mare Lamentorum"
+        },
+        {
+            "Name": "Rusalka",
+            "Nom": "Roussalka",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8896,
+            "Rang": "A",
+            "Region": "La Tempête",
+            "Map": "The Tempest"
+        },
+        {
+            "Name": "Sabotender Bailarina",
+            "Nom": "Pampa Ballerine",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2941,
+            "Rang": "A",
+            "Region": "Thanalan central",
+            "Map": "Central Thanalan"
+        },
+        {
+            "Name": "Safat",
+            "Nom": "Safat",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2968,
+            "Rang": "S",
+            "Region": "Hautes terres du Coerthas central",
+            "Map": "Coerthas Central Highlands"
+        },
+        {
+            "Name": "Sally the Sweeper",
+            "Nom": "Sally la balayeuse",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11023,
+            "Rang": "A",
+            "Region": "La Mémoire vivante",
+            "Map": "Living Memory"
+        },
+        {
+            "Name": "Salt and Light",
+            "Nom": "Salaclux",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5989,
+            "Rang": "S",
+            "Region": "Les Lacs",
+            "Map": "The Lochs"
+        },
+        {
+            "Name": "Ihnuxokiy",
+            "Nom": "Ihnuxokiy",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11024,
+            "Rang": "S",
+            "Region": "Kozama'uka",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Name": "Sanu Vali of Dancing Wings",
+            "Nom": "Sanu Vali",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4359,
+            "Rang": "B",
+            "Region": "L'Écume des cieux d'Abalathia",
+            "Map": "The Sea of Clouds"
+        },
+        {
+            "Name": "Scitalis",
+            "Nom": "Scitalis",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4356,
+            "Rang": "B",
+            "Region": "L'Écume des cieux de Dravania",
+            "Map": "The Churning Mists"
+        },
+        {
+            "Name": "Senmurv",
+            "Nom": "Sênmurw",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4375,
+            "Rang": "S",
+            "Region": "Avant-pays dravanien",
+            "Map": "The Dravanian Forelands"
+        },
+        {
+            "Name": "Sewer Syrup",
+            "Nom": "Syrop d'égout",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2923,
+            "Rang": "B",
+            "Region": "Thanalan occidental",
+            "Map": "Western Thanalan"
+        },
+        {
+            "Name": "Shadow-dweller Yamini",
+            "Nom": "Yamini la Nocturne",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6008,
+            "Rang": "B",
+            "Region": "Les Marges",
+            "Map": "The Fringes"
+        },
+        {
+            "Name": "Shockmaw",
+            "Nom": "choc-gueule",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10644,
+            "Rang": "B",
+            "Region": "Elpis",
+            "Map": "Elpis"
+        },
+        {
+            "Name": "Sisiutl",
+            "Nom": "Sisiutl",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4371,
+            "Rang": "A",
+            "Region": "L'Écume des cieux d'Abalathia",
+            "Map": "The Sea of Clouds"
+        },
+        {
+            "Name": "Skogs Fru",
+            "Nom": "Skogs Fru",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2928,
+            "Rang": "B",
+            "Region": "Noscea centrale",
+            "Map": "Middle La Noscea"
+        },
+        {
+            "Name": "Slipkinx Steeljoints",
+            "Nom": "Slipkinx Joints-d'Acier",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4366,
+            "Rang": "A",
+            "Region": "Arrière-pays dravanien",
+            "Map": "The Dravanian Hinterlands"
+        },
+        {
+            "Name": "Sphatika",
+            "Nom": "Sphatika",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10618,
+            "Rang": "S",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Squonk",
+            "Nom": "Squonk",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4358,
+            "Rang": "B",
+            "Region": "L'Écume des cieux d'Abalathia",
+            "Map": "The Sea of Clouds"
+        },
+        {
+            "Name": "Kirlirger the Abhorrent",
+            "Nom": "Kirlirger l'abominable",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11025,
+            "Rang": "S",
+            "Region": "Urqopacha",
+            "Map": "Urqopacha"
+        },
+        {
+            "Name": "Stench Blossom",
+            "Nom": "Fleur Nauséabonde",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4373,
+            "Rang": "A",
+            "Region": "Azys Lla",
+            "Map": "Azys Lla"
+        },
+        {
+            "Name": "Stinging Sophie",
+            "Nom": "Sophie la dardante",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2920,
+            "Rang": "B",
+            "Region": "Forêt de l'est",
+            "Map": "East Shroud"
+        },
+        {
+            "Name": "Stolas",
+            "Nom": "Stolas",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4367,
+            "Rang": "A",
+            "Region": "Arrière-pays dravanien",
+            "Map": "The Dravanian Hinterlands"
+        },
+        {
+            "Name": "Storsie",
+            "Nom": "Storsie",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10623,
+            "Rang": "A",
+            "Region": "Le Labyrinthos",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Name": "Sugaar",
+            "Nom": "Sugaar",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8902,
+            "Rang": "A",
+            "Region": "Amh Araeng",
+            "Map": "Amh Araeng"
+        },
+        {
+            "Name": "Sugriva",
+            "Nom": "Sugriva",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10626,
+            "Rang": "A",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Sum",
+            "Nom": "Sum",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 6001,
+            "Rang": "A",
+            "Region": "Steppe d'Azim",
+            "Map": "The Azim Steppe"
+        },
+        {
+            "Name": "Supay",
+            "Nom": "Supay",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8891,
+            "Rang": "A",
+            "Region": "Rak'tika",
+            "Map": "The Rak'tika Greatwood"
+        },
+        {
+            "Name": "Tamamo Gozen",
+            "Nom": "Tamamo Gozen",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 105,
+            "Rang": "Fate",
+            "Region": "Yanxia",
+            "Map": "Yanxia"
+        },
+        {
+            "Name": "Tarchia",
+            "Nom": "Tarchia",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8900,
+            "Rang": "S",
+            "Region": "Amh Araeng",
+            "Map": "Amh Araeng"
+        },
+        {
+            "Name": "Neyoozoteel",
+            "Nom": "Neyoozoteel",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11026,
+            "Rang": "S",
+            "Region": "Yak T'el",
+            "Map": "Yak T'el"
+        },
+        {
+            "Name": "The Garlok",
+            "Nom": "Garlok",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2964,
+            "Rang": "S",
+            "Region": "Noscea orientale",
+            "Map": "Eastern La Noscea"
+        },
+        {
+            "Name": "The Mudman",
+            "Nom": "Tas de Boue",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8654,
+            "Rang": "A",
+            "Region": "Il Mheg",
+            "Map": "Il Mheg"
+        },
+        {
+            "Name": "The Pale Rider",
+            "Nom": "Cavalier pâle",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4376,
+            "Rang": "S",
+            "Region": "Arrière-pays dravanien",
+            "Map": "The Dravanian Hinterlands"
+        },
+        {
+            "Name": "Sansheya",
+            "Nom": "Sansheya",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11027,
+            "Rang": "S",
+            "Region": "Shaaloani",
+            "Map": "Shaaloani"
+        },
+        {
+            "Name": "The Scarecrow",
+            "Nom": "dracosaure primus",
+            "Valid": false,
+            "Extension": "HW",
+            "ID": 4357,
+            "Rang": "B",
+            "Region": "L'Écume des cieux de Dravania",
+            "Map": "The Churning Mists"
+        },
+        {
+            "Name": "The Slammer",
+            "Nom": "Marteleur",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11001,
+            "Rang": "B",
+            "Region": "Kozama'uka",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Name": "Thousand-cast Theda",
+            "Nom": "Theda la tripoteuse",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2956,
+            "Rang": "S",
+            "Region": "Forêt du nord",
+            "Map": "North Shroud"
+        },
+        {
+            "Name": "Ttokrrone",
+            "Nom": "Ttokrrone",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 110,
+            "Rang": "Fate",
+            "Region": "Shaaloani",
+            "Map": "Shaaloani"
+        },
+        {
+            "Name": "Tyger",
+            "Nom": "Tygre",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8905,
+            "Rang": "S",
+            "Region": "Grand-Lac",
+            "Map": "Lakeland"
+        },
+        {
+            "Name": "Udumbara",
+            "Nom": "Udumbara",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5987,
+            "Rang": "S",
+            "Region": "Les Marges",
+            "Map": "The Fringes"
+        },
+        {
+            "Name": "Uktena",
+            "Nom": "Uktena",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11007,
+            "Rang": "B",
+            "Region": "Shaaloani",
+            "Map": "Shaaloani"
+        },
+        {
+            "Name": "Unktehi",
+            "Nom": "Unktehi",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2946,
+            "Rang": "A",
+            "Region": "Basse-Noscea",
+            "Map": "Lower La Noscea"
+        },
+        {
+            "Name": "Atticus the Primogenitor",
+            "Nom": "Atticus le primogéniteur",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11028,
+            "Rang": "S",
+            "Region": "L'Hoirie recouvrée",
+            "Map": "Heritage Found"
+        },
+        {
+            "Name": "Ü-u-ü-u",
+            "Nom": "Ü-u-ü-u",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10636,
+            "Rang": "B",
+            "Region": "Le Labyrinthos",
+            "Map": "Labyrinthos"
+        },
+        {
+            "Name": "Vajrakumara",
+            "Nom": "vajrakumara",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10637,
+            "Rang": "B",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Vochstein",
+            "Nom": "Vochstein",
+            "Valid": false,
+            "Extension": "SB",
+            "ID": 5992,
+            "Rang": "A",
+            "Region": "Les Pics",
+            "Map": "The Peaks"
+        },
+        {
+            "Name": "Vogaal Ja",
+            "Nom": "Vogaal Ja",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2945,
+            "Rang": "A",
+            "Region": "Noscea centrale",
+            "Map": "Middle La Noscea"
+        },
+        {
+            "Name": "Vulpangue",
+            "Nom": "Vulpangue",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8657,
+            "Rang": "B",
+            "Region": "Il Mheg",
+            "Map": "Il Mheg"
+        },
+        {
+            "Name": "Vuokho",
+            "Nom": "Vuokho",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2933,
+            "Rang": "B",
+            "Region": "Noscea extérieure",
+            "Map": "Outer La Noscea"
+        },
+        {
+            "Name": "Warmonger",
+            "Nom": "Belliciste",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10639,
+            "Rang": "B",
+            "Region": "Garlemald",
+            "Map": "Garlemald"
+        },
+        {
+            "Name": "White Joker",
+            "Nom": "joker blanc",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2919,
+            "Rang": "B",
+            "Region": "Forêt centrale",
+            "Map": "Central Shroud"
+        },
+        {
+            "Name": "Worm of the Well",
+            "Nom": "Verpuy",
+            "Valid": false,
+            "Extension": "ShB",
+            "ID": 8903,
+            "Rang": "B",
+            "Region": "Amh Araeng",
+            "Map": "Amh Araeng"
+        },
+        {
+            "Name": "Wulgaru",
+            "Nom": "Wulgaru",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2954,
+            "Rang": "S",
+            "Region": "Forêt de l'est",
+            "Map": "East Shroud"
+        },
+        {
+            "Name": "Xty'iinbek",
+            "Nom": "xty'iinbek",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11005,
+            "Rang": "B",
+            "Region": "Yak T'el",
+            "Map": "Yak T'el"
+        },
+        {
+            "Name": "The Forecaster",
+            "Nom": "Monsieur Météo",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11029,
+            "Rang": "S",
+            "Region": "La Mémoire vivante",
+            "Map": "Living Memory"
+        },
+        {
+            "Name": "Yilan",
+            "Nom": "Yilan",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10625,
+            "Rang": "A",
+            "Region": "Thavnair",
+            "Map": "Thavnair"
+        },
+        {
+            "Name": "Yumcax",
+            "Nom": "Yumcax",
+            "Valid": false,
+            "Extension": "EW",
+            "ID": 10643,
+            "Rang": "B",
+            "Region": "Elpis",
+            "Map": "Elpis"
+        },
+        {
+            "Name": "Zanig'oh",
+            "Nom": "Zanig'oh",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2943,
+            "Rang": "A",
+            "Region": "Thanalan méridional",
+            "Map": "Southern Thanalan"
+        },
+        {
+            "Name": "Zona Seeker",
+            "Nom": "Zona Seeker",
+            "Valid": false,
+            "Extension": "ARR",
+            "ID": 2957,
+            "Rang": "S",
+            "Region": "Thanalan occidental",
+            "Map": "Western Thanalan"
+        },
+        {
+            "Name": "Arch Aethereater",
+            "Nom": "Seigneur des Cristallisateurs",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11030,
+            "Rang": "SS",
+            "Region": "Urqopacha",
+            "Map": "Urqopacha"
+        },
+        {
+            "Name": "Arch Aethereater",
+            "Nom": "Seigneur des Cristallisateurs",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11031,
+            "Rang": "SS",
+            "Region": "Kozama'uka",
+            "Map": "Kozama'uka"
+        },
+        {
+            "Name": "Arch Aethereater",
+            "Nom": "Seigneur des Cristallisateurs",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11032,
+            "Rang": "SS",
+            "Region": "Yak T'el",
+            "Map": "Yak T'el"
+        },
+        {
+            "Name": "Arch Aethereater",
+            "Nom": "Seigneur des Cristallisateurs",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11033,
+            "Rang": "SS",
+            "Region": "Shaaloani",
+            "Map": "Shaaloani"
+        },
+        {
+            "Name": "Arch Aethereater",
+            "Nom": "Seigneur des Cristallisateurs",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11034,
+            "Rang": "SS",
+            "Region": "L'Hoirie recouvrée",
+            "Map": "Heritage Found"
+        },
+        {
+            "Name": "Arch Aethereater",
+            "Nom": "Seigneur des Cristallisateurs",
+            "Valid": false,
+            "Extension": "DT",
+            "ID": 11035,
+            "Rang": "SS",
+            "Region": "La Mémoire vivante",
+            "Map": "Living Memory"
+        }
+    ]
+}

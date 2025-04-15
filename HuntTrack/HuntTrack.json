@@ -1,0 +1,19 @@
+{
+  "Author": "John-P",
+  "Name": "HuntTrack",
+  "InternalName": "HuntTrack",
+  "AssemblyVersion": "1.0.30.0",
+  "Description": "Liste de choses à tracker.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "plugin"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/JohnP-lab/HuntTrack/master/images/icon.png",
+  "Punchline": "Liste de choses à tracker.",
+  "AcceptsFeedback": true
+}
