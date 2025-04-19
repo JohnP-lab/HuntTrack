@@ -8,8 +8,8 @@
       "plugin"
     ],
     "InternalName": "HuntTrack",
-    "AssemblyVersion": "1.0.1",
-    "TestingAssemblyVersion": "1.0.1",
+    "AssemblyVersion": "1.0.2",
+    "TestingAssemblyVersion": "1.0.2",
     "RepoUrl": "https://github.com/JohnP-lab/HuntTrack",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 12,
@@ -18,9 +18,9 @@
     "IsTestingExclusive": "False",
     "DownloadCount": 1,
     "LastUpdate": 1618608322,
-    "DownloadLinkInstall": "https://github.com/JohnP-lab/HuntTrack/releases/download/1.0.1/HuntTrack.zip",
-    "DownloadLinkUpdate": "https://github.com/JohnP-lab/HuntTrack/releases/download/1.0.1/HuntTrack.zip",
-    "DownloadLinkTesting": "https://github.com/JohnP-lab/HuntTrack/releases/download/1.0.1/HuntTrack.zip",
+    "DownloadLinkInstall": "https://github.com/JohnP-lab/HuntTrack/releases/download/1.0.2/HuntTrack.zip",
+    "DownloadLinkUpdate": "https://github.com/JohnP-lab/HuntTrack/releases/download/1.0.2/HuntTrack.zip",
+    "DownloadLinkTesting": "https://github.com/JohnP-lab/HuntTrack/releases/download/1.0.2/HuntTrack.zip",
     "IconUrl": "https://raw.githubusercontent.com/JohnP-lab/HuntTrack/master/images/icon.png\""
   }
 ]
