@@ -192,9 +192,11 @@ public sealed class Plugin : IDalamudPlugin
             {
                 if (!tempCible.Valid)
                 {
+                    tempCible.Valid = true;
                     var index = Config.Cibles.FindIndex(c => c.Id == tempCible.Id);
                     if (index != -1)
                     {
+                        
                         Config.Cibles[index] = tempCible;
                         UpdateCibles(Config.Cibles); // Si tu as une méthode pour enregistrer
                     }
