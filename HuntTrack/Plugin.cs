@@ -34,7 +34,10 @@ public sealed class Plugin : IDalamudPlugin
 
     [PluginService]
     internal static ITextureProvider TextureProvider { get; private set; } = null!;
-
+    
+    [PluginService]
+    public static IChatGui Chat { get; private set; } = null!;
+    
     [PluginService]
     internal static ICommandManager CommandManager { get; private set; } = null!;
 
@@ -47,7 +50,10 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService]
     internal static IPluginLog Log { get; private set; } = null!;
 
-    private const string CommandName = "/hunttrack";
+    private const string CommandNameLong = "/hunttrack";
+    private const string CommandNameCourt = "/ht";
+    private const string CommandNameCheck = "/htcheck";
+    private const string CommandNameValid = "/htvalid";
 
 
     public Configuration Configuration { get; init; }
@@ -67,10 +73,25 @@ public sealed class Plugin : IDalamudPlugin
         WindowSystem.AddWindow(MainWindow);
 
 
-        CommandManager.AddHandler(CommandName, new CommandInfo(OnCommand)
+        CommandManager.AddHandler(CommandNameLong, new CommandInfo(OnCommandWindows)
         {
             HelpMessage = "Ouvre la fenêtre du plugin"
-           // HelpMessage = "A useful message to display in /xlhelp"
+            // HelpMessage = "A useful message to display in /xlhelp"
+        });
+        CommandManager.AddHandler(CommandNameCourt, new CommandInfo(OnCommandWindows)
+        {
+            HelpMessage = "Ouvre la fenêtre du plugin"
+            // HelpMessage = "A useful message to display in /xlhelp"
+        });
+        CommandManager.AddHandler(CommandNameCheck, new CommandInfo(OnCommandCheck)
+        {
+            HelpMessage = "Vérifie si la cible a été validé"
+            // HelpMessage = "A useful message to display in /xlhelp"
+        });
+        CommandManager.AddHandler(CommandNameValid, new CommandInfo(OnCommandValid)
+        {
+            HelpMessage = "Valide une cible"
+            // HelpMessage = "A useful message to display in /xlhelp"
         });
 
 
@@ -99,7 +120,10 @@ public sealed class Plugin : IDalamudPlugin
         ConfigWindow.Dispose();
         MainWindow.Dispose();
             
-        CommandManager.RemoveHandler(CommandName);
+        CommandManager.RemoveHandler(CommandNameLong);
+        CommandManager.RemoveHandler(CommandNameCourt);
+        CommandManager.RemoveHandler(CommandNameCheck);
+        CommandManager.RemoveHandler(CommandNameValid);
         
         PluginInterface.UiBuilder.OpenConfigUi -= ToggleConfigUI;
         PluginInterface.UiBuilder.OpenMainUi -= ToggleMainUI;
@@ -107,12 +131,80 @@ public sealed class Plugin : IDalamudPlugin
         Log.Information($"Fin DISPOSE du plugin.");
     }
     
-    private void OnCommand(string command, string args)
+    private void OnCommandWindows(string command, string args)
     {
         // in response to the slash command, just toggle the display status of our main ui
         ToggleMainUI();
-        Log.Information($"Clique fenetre du plugin: {command}.");
+        Log.Information($"Ouverture/Fermeture fenêtre du plugin: {command}.");
     }
+    
+    private void OnCommandCheck(string command, string args)
+    {
+        var splitArgs = args.Split(' ');
+
+        foreach (var cibleTemp in splitArgs)
+        {
+            if (string.IsNullOrWhiteSpace(cibleTemp))
+                return ;
+
+            string rechercheLower = cibleTemp.ToLowerInvariant();
+            List<Cible> temp = new List<Cible>();
+            temp = Config.Cibles.Where(c =>
+            {
+                string nom = Configuration.IsEnglish ? c.Name : c.Nom;
+                return nom != null && nom.ToLowerInvariant().Contains(rechercheLower);
+            }).ToList();
+
+            foreach (var tempCible in temp)
+            {
+                if (tempCible.Valid)
+                {
+                    Chat.Print($"La cible {tempCible.Name} a été validé");
+                }
+                else
+                {
+                    Chat.Print($"La cible {tempCible.Name} n'a pas été validé");
+                }
+            }
+        }
+        
+        Log.Information($"Commande Check du plugin: {command}.");
+    }
+    
+    private void OnCommandValid(string command, string args)
+    {
+        var splitArgs = args.Split(' ');
+
+        foreach (var cibleTemp in splitArgs)
+        {
+            if (string.IsNullOrWhiteSpace(cibleTemp))
+                return ;
+
+            string rechercheLower = cibleTemp.ToLowerInvariant();
+            List<Cible> temp = new List<Cible>();
+            temp = Config.Cibles.Where(c =>
+            {
+                string nom = Configuration.IsEnglish ? c.Name : c.Nom;
+                return nom != null && nom.ToLowerInvariant().Contains(rechercheLower);
+            }).ToList();
+
+            foreach (var tempCible in temp)
+            {
+                if (!tempCible.Valid)
+                {
+                    var index = Config.Cibles.FindIndex(c => c.Id == tempCible.Id);
+                    if (index != -1)
+                    {
+                        Config.Cibles[index] = tempCible;
+                        UpdateCibles(Config.Cibles); // Si tu as une méthode pour enregistrer
+                    }
+                    Chat.Print($"La cible {tempCible.Name} a été validé");
+                }
+            }
+        }
+        Log.Information($"Commande Valid du plugin: {command}.");
+    }
+    
 
     private void DrawUI() => WindowSystem.Draw();
 
