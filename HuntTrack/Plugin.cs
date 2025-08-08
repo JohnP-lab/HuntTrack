@@ -159,11 +159,11 @@ public sealed class Plugin : IDalamudPlugin
             {
                 if (tempCible.Valid)
                 {
-                    Chat.Print($"La cible {tempCible.Name} a été validé");
+                    Chat.Print($"La cible {tempCible.Name} a déjà été abattu");
                 }
                 else
                 {
-                    Chat.Print($"La cible {tempCible.Name} n'a pas été validé");
+                    Chat.Print($"La cible {tempCible.Name} n'a pas encore abattu");
                 }
             }
         }
