@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
     <Project Sdk="Dalamud.NET.Sdk/14.0.2">
   <PropertyGroup>
-    <Version>0.0.1</Version>
-      <AssemblyVersion>0.0.1</AssemblyVersion>
-      <FileVersion>0.0.1</FileVersion>
+    <Version Condition="'$(Version)' == ''">0.0.1</Version>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">0.0.1</AssemblyVersion>
+    <FileVersion Condition="'$(FileVersion)' == ''">0.0.1</FileVersion>
     <Description>Liste de choses à tracker.</Description>
     <PackageProjectUrl>https://github.com/JohnP-lab/HuntTrack</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
