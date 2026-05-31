@@ -71,11 +71,11 @@ jobs:
 
             - name: Build
               run: |
-                $ver = "${{ needs.version.outputs.new_tag }}"               
+                ver="${{ needs.version.outputs.new_tag }}"
                 echo "Building version $ver"
-                dotnet build HuntTrack/HuntTrack.csproj --configuration Release `
-                -p:Version=$ver `
-                -p:FileVersion=$ver `
+                dotnet build HuntTrack/HuntTrack.csproj --configuration Release \
+                -p:Version=$ver \
+                -p:FileVersion=$ver \
                 -p:AssemblyVersion=$ver
               env:
                   DOTNET_CLI_TELEMETRY_OUTPUT: true
