@@ -1,4 +1,4 @@
-name: BuildRelease
+﻿name: BuildRelease
 
 on:
     workflow_dispatch:
@@ -24,7 +24,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
               with:
-                  fetch-depth: 0 # Nécessaire pour voir tous les tags
+                  fetch-depth: 0 # NÃ©cessaire pour voir tous les tags
 
             - name: Bump version and create tag
               id: bump
@@ -88,10 +88,10 @@ jobs:
             -  name: Check if HuntTrack.zip exists
                run: |
                     if (Test-Path "HuntTrack.zip") {
-                      Write-Output "✅ HuntTrack.zip found!"
+                      Write-Output "âœ… HuntTrack.zip found!"
                       Get-Item "HuntTrack.zip" | Format-List
                     } else {
-                      Write-Output "❌ HuntTrack.zip not found!"
+                      Write-Output "âŒ HuntTrack.zip not found!"
                       Get-ChildItem -Recurse
                     }
                     
@@ -166,7 +166,7 @@ jobs:
                   # Committer les changements
                   git commit -m "[AUTO] MAJ repo.json to version ${{ needs.version.outputs.new_tag }}" || echo "No changes to commit"
                   
-                  # Récupérer les derniers changements de la branche master
+                  # RÃ©cupÃ©rer les derniers changements de la branche master
                   git fetch origin master
                   
                   # Rebaser les changements locaux sur la branche distante
@@ -176,3 +176,4 @@ jobs:
                   git push origin master
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
