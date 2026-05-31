@@ -15,12 +15,16 @@ namespace HuntTrack;
 public sealed class Plugin : IDalamudPlugin
 {
     public List<Cible> Cibles { get; private set; } = new();
+    public List<Compteur> Compteurs { get; private set; } = new();
 
     // Objet HuntConfig pour conserver la version et la liste des cibles
     public HuntConfig Config { get; private set; } = new HuntConfig
     {
         Version = "1.0",
-        Cibles = new List<Cible>()
+        CompteurFavoris = 0,
+        Cibles = new List<Cible>(),
+        Compteurs = new List<Compteur>()
+
     };
 
     public readonly string CleanFilePath =
@@ -54,6 +58,7 @@ public sealed class Plugin : IDalamudPlugin
     private const string CommandNameCourt = "/ht";
     private const string CommandNameCheck = "/htcheck";
     private const string CommandNameValid = "/htvalid";
+    private const string CommandNameComtpteur = "/+1";
 
 
     public Configuration Configuration { get; init; }
@@ -93,6 +98,11 @@ public sealed class Plugin : IDalamudPlugin
             HelpMessage = "Valide une cible"
             // HelpMessage = "A useful message to display in /xlhelp"
         });
+        CommandManager.AddHandler(CommandNameComtpteur, new CommandInfo(OnCommandCompteur)
+        {
+            HelpMessage = "Fait +1 sur le compteur selectionné"
+            // HelpMessage = "A useful message to display in /xlhelp"
+        });
 
 
         PluginInterface.UiBuilder.Draw += DrawUI;
@@ -124,6 +134,7 @@ public sealed class Plugin : IDalamudPlugin
         CommandManager.RemoveHandler(CommandNameCourt);
         CommandManager.RemoveHandler(CommandNameCheck);
         CommandManager.RemoveHandler(CommandNameValid);
+        CommandManager.RemoveHandler(CommandNameComtpteur);
         
         PluginInterface.UiBuilder.OpenConfigUi -= ToggleConfigUI;
         PluginInterface.UiBuilder.OpenMainUi -= ToggleMainUI;
@@ -207,6 +218,36 @@ public sealed class Plugin : IDalamudPlugin
         Log.Information($"Commande Valid du plugin: {command}.");
     }
     
+    private void OnCommandCompteur(string command, string args)
+    {
+            List<Compteur> temp = new List<Compteur>();
+            temp = Config.Compteurs.Where(c =>
+            {
+                return c.Id == Config.CompteurFavoris;
+
+                return false;
+            }).ToList();
+
+            foreach (var tempCompteur in temp)
+            {
+
+                    tempCompteur.Valeur ++;
+                    
+                    
+                    var index = Config.Compteurs.FindIndex(c => c.Id == Config.CompteurFavoris);
+                    if (index != -1)
+                    {
+                        
+                        Config.Compteurs[index].Valeur ++;
+                        UpdateCompteurs(Config.Compteurs); // Si tu as une méthode pour enregistrer
+                    }
+                    Chat.Print($"La cible {tempCompteur.Nom} a été mis à jour -> {tempCompteur.Valeur}");
+                
+            }
+        
+        Log.Information($"Commande Check du plugin: {command}.");
+    }
+    
 
     private void DrawUI() => WindowSystem.Draw();
 
@@ -216,7 +257,10 @@ public sealed class Plugin : IDalamudPlugin
     public class HuntConfig
     {
         public string Version { get; set; } = "1.0";
-        public List<Cible> Cibles { get; set; } = new();
+        public int CompteurFavoris { get; set; } = 0;
+        public List<Cible> Cibles { get; set; } = [];
+        public List<Compteur> Compteurs { get; set; } = [];
+
     }
 
     public class Cible
@@ -231,6 +275,15 @@ public sealed class Plugin : IDalamudPlugin
         
         public String Region { get; set; } = string.Empty;
         public String Map { get; set; } = string.Empty;
+    }
+    
+    public class Compteur
+    {
+        public int Id { get; set; } = 0;
+        public String Nom { get; set; } = string.Empty;
+        public int Valeur { get; set; } = 0;
+        public String Description { get; set; } = string.Empty;
+
     }
 
     public class Services
@@ -255,16 +308,27 @@ public sealed class Plugin : IDalamudPlugin
         Config.Cibles = nouvellesCibles;
 
         // Appeler WriteJsonFile pour sauvegarder uniquement les cibles, mais avec la version du config
-        WriteJsonFile(nouvellesCibles);
+        WriteJsonFile(nouvellesCibles, Config.Compteurs);
+    }
+    
+    public void UpdateCompteurs(List<Compteur> nouvellesCompteurs)
+    {
+        // Mettre à jour la liste des cibles dans Config
+        Config.Compteurs = nouvellesCompteurs;
+
+        // Appeler WriteJsonFile pour sauvegarder uniquement les cibles, mais avec la version du config
+        WriteJsonFile(Config.Cibles,nouvellesCompteurs);
     }
 
-    public void WriteJsonFile(List<Cible> cibles)
+    public void WriteJsonFile(List<Cible> cibles, List<Compteur> compteurs)
     {
         // Utiliser la version déjà présente dans l'objet Config
         var data = new HuntConfig
         {
             Version = Config.Version,
-            Cibles = cibles
+            CompteurFavoris = Config.CompteurFavoris,
+            Cibles = cibles,
+            Compteurs = compteurs
         };
 
         // Sérialiser l'objet HuntConfig avec les données mises à jour
@@ -298,7 +362,8 @@ public sealed class Plugin : IDalamudPlugin
             if (cleanJson == null || saveJson == null)
             {
                 Console.WriteLine("Erreur : Impossible de charger les fichiers JSON.");
-                Cibles = new List<Cible>(); // ️ Toujours initialiser la liste !
+                Cibles = new List<Cible>();
+                Compteurs = new List<Compteur>();// ️ Toujours initialiser la liste !
                 return;
             }
 
@@ -316,11 +381,22 @@ public sealed class Plugin : IDalamudPlugin
                         newCible.Valid = oldCible.Valid;
                     }
                 }
+                foreach (var newCompteur in cleanJson.Compteurs)
+                {
+                    var oldCompteur = saveJson.Compteurs.FirstOrDefault(c => c.Id == newCompteur.Id);
+                    if (oldCompteur != null)
+                    {
+                        newCompteur.Nom = oldCompteur.Nom;
+                        newCompteur.Description = oldCompteur.Description;
+                        newCompteur.Valeur = oldCompteur.Valeur;
+                    }
+                }
 
                 Config.Version = cleanJson.Version;
                 saveJson.Cibles = cleanJson.Cibles;
+                saveJson.Compteurs = cleanJson.Compteurs;
                 // Sauvegarder la nouvelle version avec les valeurs de `Valid`
-                WriteJsonFile(saveJson.Cibles);
+                WriteJsonFile(saveJson.Cibles, saveJson.Compteurs);
                 Log.Information("HuntSave.json mis à jour avec conservation de Valid !");
             }
             else
@@ -328,15 +404,19 @@ public sealed class Plugin : IDalamudPlugin
                 Log.Information("HuntSave.json est à jour.");
             }
 
-            Config.Version = saveJson.Version;                    // Mettre à jour la version
+            Config.Version = saveJson.Version;   
+            Config.CompteurFavoris = saveJson.CompteurFavoris; // Mettre à jour la version
             Config.Cibles = saveJson.Cibles ?? new List<Cible>(); // Si cibles est null, initialiser avec une liste vide
+            Config.Compteurs = saveJson.Compteurs ?? new List<Compteur>(); // Si cibles est null, initialiser avec une liste vide
 
             Log.Information($"{Config.Cibles.Count} cibles chargées en mémoire !");
+            Log.Information($"{Config.Compteurs.Count} Compteurs chargées en mémoire !");
         }
         catch (Exception ex)
         {
             Log.Information($"Erreur : {ex.Message}");
             Cibles = new List<Cible>();
+            Compteurs = new List<Compteur>();
         }
     }
 

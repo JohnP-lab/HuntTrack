@@ -37,6 +37,7 @@ public class MainWindow : Window, IDisposable
 
     private readonly ImGuiTableFlags tableFlags = ImGuiTableFlags.Borders | ImGuiTableFlags.RowBg | ImGuiTableFlags.Sortable;
     private List<Plugin.Cible> cibles = new List<Plugin.Cible>();
+    private List<Plugin.Compteur> compteurs = new List<Plugin.Compteur>();
    // private static string jsonFilePath = Plugin.SaveFilePath;
 
     private Configuration Configuration;
@@ -62,10 +63,29 @@ public class MainWindow : Window, IDisposable
 
     public override void Draw()
     {
-
         cibles = Plugin.Config.Cibles;
+        compteurs = Plugin.Config.Compteurs;
+        // C# moderne : On sépare strictement le rendu du rafraîchissement des données
+        if (!ImGui.BeginTabBar("Onglets")) return;
 
-        RenderCibles();
+        try
+        {
+            if (ImGui.BeginTabItem("Cibles"))
+            {
+                RenderCibles();
+                ImGui.EndTabItem(); // Crucial pour l'état ImGui
+            }
+
+            if (ImGui.BeginTabItem("Compteurs"))
+            {
+                RenderCompteurs();
+                ImGui.EndTabItem(); // Crucial pour l'état ImGui
+            }
+        }
+        finally
+        {
+            ImGui.EndTabBar();
+        }
     }
 
     public void RenderCibles()
@@ -231,7 +251,147 @@ public class MainWindow : Window, IDisposable
             ImGui.EndTable();
         }
     }
+
+    public void RenderCompteurs()
+    {
+        if (ImGui.BeginTable("CompteursTable", 5, tableFlags, new Vector2(0, 300)))
+        {
+            // Configuration des colonnes
+            ImGui.TableSetupColumn("Favoris", ImGuiTableColumnFlags.WidthFixed, 60);
+            ImGui.TableSetupColumn("Id", ImGuiTableColumnFlags.WidthFixed, 50);
+            ImGui.TableSetupColumn("Nom", ImGuiTableColumnFlags.None);
+            ImGui.TableSetupColumn("Valeur", ImGuiTableColumnFlags.WidthFixed,
+                                   160); // Élargi pour accueillir les boutons + et -
+            ImGui.TableSetupColumn("Description", ImGuiTableColumnFlags.None);
+            ImGui.TableHeadersRow();
+
+            // **Gestion du tri personnalisé**
+            ImGuiTableSortSpecsPtr sortSpecs = ImGui.TableGetSortSpecs();
+            if (sortSpecs.SpecsDirty)
+            {
+                sortedColumnIndex = sortSpecs.Specs.ColumnIndex;
+                isSortedAscending = (sortSpecs.Specs.SortDirection == ImGuiSortDirection.Ascending);
+                sortSpecs.SpecsDirty = false;
+
+                compteurs.Sort((a, b) =>
+                {
+                    int result = 0;
+                    switch (sortedColumnIndex)
+                    {
+                        case 0: 
+                            bool aIsFavori = (a.Id == Plugin.Config.CompteurFavoris);
+                            bool bIsFavori = (b.Id == Plugin.Config.CompteurFavoris);
+                            result = aIsFavori.CompareTo(bIsFavori); 
+                            break;
+                        case 1: result = a.Id.CompareTo(b.Id); break;
+                        case 2: result = string.Compare(a.Nom, b.Nom, StringComparison.OrdinalIgnoreCase); break;
+                        case 3: result = a.Valeur.CompareTo(b.Valeur); break;
+                        case 4:
+                            result = string.Compare(a.Description, b.Description, StringComparison.OrdinalIgnoreCase);
+                            break;
+                    }
+
+                    return isSortedAscending ? result : -result;
+                });
+            }
+
+            // **Rendu des lignes**
+            foreach (var compteur in compteurs)
+            {
+                ImGui.TableNextRow();
+                ImGui.PushID(compteur.Id); // ID unique par ligne pour éviter les conflits de boutons/checkboxes
+
+                // --- Colonne 0 : Favoris ---
+                ImGui.TableSetColumnIndex(0);
+
+                // Centrage horizontal de la checkbox
+                float col0Width = ImGui.GetColumnWidth();
+                float checkWidth = ImGui.GetFrameHeight(); // Largeur standard d'une checkbox
+                ImGui.SetCursorPosX(ImGui.GetCursorPosX() + (col0Width - checkWidth) * 0.5f);
+                
+                bool isCurrentFavori = (compteur.Id == Plugin.Config.CompteurFavoris);
+                if (ImGui.Checkbox("##favori", ref isCurrentFavori))
+                {
+                    // Assignation via expression ternaire moderne
+                    Plugin.Config.CompteurFavoris = isCurrentFavori ? compteur.Id : 0;
     
+                    // On force la sauvegarde du fichier JSON pour enregistrer le nouveau favori
+                    Plugin.UpdateCompteurs(compteurs); 
+                }
+
+                // --- Colonne 1 : ID ---
+                ImGui.TableSetColumnIndex(1);
+                ImGui.Text(compteur.Id.ToString());
+
+                // --- Colonne 2 : Nom ---
+                ImGui.TableSetColumnIndex(2);
+                string nomSaisi = compteur.Nom;
+                // Largeur maximale pour que l'input prenne toute la cellule
+                ImGui.SetNextItemWidth(-1f); 
+                if (ImGui.InputText("##nom", ref nomSaisi, 100)) // 100 caractères max
+                {
+                    compteur.Nom = nomSaisi;
+                    Plugin.UpdateCompteurs(compteurs); // Sauvegarde automatique à chaque touche pressée
+                }
+
+                // --- Colonne 3 : Valeur (Centrée) ---
+                ImGui.TableSetColumnIndex(3);
+
+                // 1. Définition des largeurs
+                float buttonWidth = 24f; // Largeur fixe pour les boutons
+                float inputWidth = 60f;  // Largeur fixe pour l'input
+                float spacing = ImGui.GetStyle().ItemSpacing.X;
+
+                // 2. Calcul de la largeur totale du groupe d'éléments
+                float totalWidth = (buttonWidth * 2) + inputWidth + (spacing * 2);
+
+                // 3. Calcul et application de l'offset pour centrer
+                float offsetX = (ImGui.GetColumnWidth() - totalWidth) * 0.5f;
+                // On s'assure de ne pas avoir d'offset négatif si la colonne est trop petite
+                ImGui.SetCursorPosX(ImGui.GetCursorPosX() + Math.Max(0, offsetX)); 
+
+                // Rendu Bouton (-)
+                if (ImGui.Button("-", new Vector2(buttonWidth, 0)))
+                {
+                    compteur.Valeur--;
+                    Plugin.UpdateCompteurs(compteurs);
+                }
+                ImGui.SameLine();
+
+                // Rendu Input
+                ImGui.SetNextItemWidth(inputWidth);
+                int val = compteur.Valeur;
+                if (ImGui.InputInt("##valeur", ref val, 0, 0))
+                {
+                    compteur.Valeur = val;
+                    Plugin.UpdateCompteurs(compteurs);
+                }
+                ImGui.SameLine();
+
+                // Rendu Bouton (+)
+                if (ImGui.Button("+", new Vector2(buttonWidth, 0)))
+                {
+                    compteur.Valeur++;
+                    Plugin.UpdateCompteurs(compteurs);
+                }
+
+                // --- Colonne 4 : Description ---
+                ImGui.TableSetColumnIndex(4);
+                string descSaisie = compteur.Description;
+                ImGui.SetNextItemWidth(-1f);
+                if (ImGui.InputText("##desc", ref descSaisie, 255)) // 255 caractères max
+                {
+                    compteur.Description = descSaisie;
+                    Plugin.UpdateCompteurs(compteurs); // Sauvegarde automatique
+                }
+
+                ImGui.PopID(); // Fin de l'ID de la ligne
+            }
+
+            ImGui.EndTable();
+        }
+    }
+
     private static int ComparerRang(string rangA, string rangB)
     {
         Dictionary<string, int> rangOrder = new Dictionary<string, int> { { "SS", 5 }, { "S", 4 }, { "A", 3 }, { "B", 2 }, { "Fate", 1 } };

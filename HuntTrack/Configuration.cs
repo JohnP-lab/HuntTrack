@@ -7,7 +7,7 @@ namespace HuntTrack;
 public class Configuration : IPluginConfiguration
 {
     public int Version { get; set; } = 0;
-
+    public int CompteurFavoris { get; set; } = 0;
     //public bool IsConfigWindowMovable { get; set; } = true;
     
     public bool IsEnglish { get; set; } = false;
