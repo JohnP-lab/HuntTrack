@@ -73,7 +73,7 @@ jobs:
               run: |
                 $ver = "${{ needs.version.outputs.new_tag }}"
                 Write-Host "Building version $ver"
-                  run: dotnet build HuntTrack/HuntTrack.csproj --configuration Release -p:Version=${{ needs.version.outputs.new_tag }} -p:FileVersion=${{ needs.version.outputs.new_tag }} -p:AssemblyVersion=${{ needs.version.outputs.new_tag }}
+                dotnet build HuntTrack/HuntTrack.csproj --configuration Release -p:Version=${{ needs.version.outputs.new_tag }} -p:FileVersion=${{ needs.version.outputs.new_tag }} -p:AssemblyVersion=${{ needs.version.outputs.new_tag }}
               env:
                   DOTNET_CLI_TELEMETRY_OUTPUT: true
 
