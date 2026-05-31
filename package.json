@@ -1,6 +1,6 @@
 {
     "name": "HuntTrack",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Versioning helper for GitHub Actions",
     "private": true
 }
