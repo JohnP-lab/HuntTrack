@@ -75,7 +75,7 @@ jobs:
                 Write-Host "Building version $ver"
                 dotnet build HuntTrack/HuntTrack.csproj --configuration Release -p:Version=${{ needs.version.outputs.new_tag }} -p:FileVersion=${{ needs.version.outputs.new_tag }} -p:AssemblyVersion=${{ needs.version.outputs.new_tag }}
               env:
-                  DOTNET_CLI_TELEMETRY_OUTPUT: true
+                DOTNET_CLI_TELEMETRY_OUTPUT: true
 
             -   name: Debug - list bin/Release contents
                 run: |
@@ -176,4 +176,5 @@ jobs:
                   git push origin master
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
