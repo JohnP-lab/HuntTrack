@@ -238,10 +238,10 @@ public sealed class Plugin : IDalamudPlugin
                     if (index != -1)
                     {
                         
-                        Config.Compteurs[index].Valeur ++;
+                        Config.Compteurs[index] = tempCompteur;
                         UpdateCompteurs(Config.Compteurs); // Si tu as une méthode pour enregistrer
                     }
-                    Chat.Print($"La cible {tempCompteur.Nom} a été mis à jour -> {tempCompteur.Valeur}");
+                    Chat.Print($"Le compteur {tempCompteur.Nom} a été mis à jour -> {tempCompteur.Valeur}");
                 
             }
         
