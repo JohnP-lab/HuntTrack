@@ -384,7 +384,7 @@ public sealed class Plugin : IDalamudPlugin
                 foreach (var newCompteur in cleanJson.Compteurs)
                 {
                     var oldCompteur = saveJson.Compteurs.FirstOrDefault(c => c.Id == newCompteur.Id);
-                    if (oldCompteur != null)
+                    if (oldCompteur != null && (oldCompteur.Valeur != 0 || oldCompteur.Nom != string.Empty || oldCompteur.Description != string.Empty))
                     {
                         newCompteur.Nom = oldCompteur.Nom;
                         newCompteur.Description = oldCompteur.Description;
