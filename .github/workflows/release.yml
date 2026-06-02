@@ -63,9 +63,10 @@ jobs:
             - name: Write version into JSON
               run: |
                 $ver = "${{ needs.version.outputs.new_tag }}"
+                $verFull = "$ver.0"
                 $path = './HuntTrack/HuntTrack.json'
                 $json = Get-Content -Raw $path | ConvertFrom-Json
-                $json.AssemblyVersion = $ver
+                $json.AssemblyVersion = $verFull
                 $content = $json | ConvertTo-Json
                 Set-Content -Path $path -Value $content
 
@@ -73,7 +74,7 @@ jobs:
               run: |
                 $ver = "${{ needs.version.outputs.new_tag }}"
                 Write-Host "Building version $ver"
-                dotnet build HuntTrack/HuntTrack.csproj --configuration Release -p:Version=$ver -p:FileVersion=$ver -p:AssemblyVersion=$ver
+                dotnet build HuntTrack/HuntTrack.csproj --configuration Release -p:Version=$ver.0 -p:FileVersion=$ver.0 -p:AssemblyVersion=$ver.0
               env:
                 DOTNET_CLI_TELEMETRY_OUTPUT: true
 
@@ -143,10 +144,11 @@ jobs:
             - name: Write out repo.json
               run: |
                 $ver = '${{ needs.version.outputs.new_tag }}'
+                $verFull = "$ver.0"
                 $path = './repo.json'
                 $json = Get-Content -Raw $path | ConvertFrom-Json
-                $json[0].AssemblyVersion = $ver
-                $json[0].TestingAssemblyVersion = $ver
+                $json[0].AssemblyVersion = $verFull
+                $json[0].TestingAssemblyVersion = $verFull
                 $json[0].DownloadLinkInstall = $json.DownloadLinkInstall -replace '[^/]+/HuntTrack.zip',"$ver/HuntTrack.zip"
                 $json[0].DownloadLinkTesting = $json.DownloadLinkTesting -replace '[^/]+/HuntTrack.zip',"$ver/HuntTrack.zip"
                 $json[0].DownloadLinkUpdate = $json.DownloadLinkUpdate -replace '[^/]+/HuntTrack.zip',"$ver/HuntTrack.zip"
